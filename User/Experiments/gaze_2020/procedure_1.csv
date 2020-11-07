@@ -6,7 +6,7 @@ Item,Trial Type,Max Time,Text,Shuffle 1,weight,survey,btn_width,instruct_1,respo
  In this task we will ask you to look at some dots to train the camera to know where your eyes are looking. <br><br>
  After this we will present you with pairs of images. You can look wherever you like on the screen.
  </span>",off,0,,,,,,,,,,,,,
-2,webgazer_2,user,"Please look at the cross.<br />A pair of images will follow. You are free <br />to look at either image.<br /><br />Do not move your head, <br />only use your eyes.",off,1,,,,,,,,,,,,,
+2,webgazer,user,"Please look at the cross.<br />A pair of images will follow. You are free <br />to look at either image.<br /><br />Do not move your head, <br />only use your eyes.",off,1,,,,,,,,,,,,,
 0,instruct,user,Please take a break before starting the second half of the eyetracking task.,off,1,,,,,,,,,,,,,
 3,webgazer,user,"Please look at the cross.<br />A pair of images will follow. You are free <br />to look at either image.<br /><br />Do not move your head, <br />only use your eyes.",off,1,,,,,,,,,,,,,
 0,instruct,user,"Thank you for completing the previous eye-tracking task, we're about to ask you to rate some images.",off,1,,,,,,,,,,,,,
