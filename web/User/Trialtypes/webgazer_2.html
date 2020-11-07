@@ -70,7 +70,7 @@ Updates by Anthony Haffey (a.haffey@reading.ac.uk) 2020 to make this a task that
       <table>
         <tr>
           <td>
-            <img style="height:300px;width:400px" src="libraries/webgazer/imgs/ideal_pose.png"/>
+            <img style="height:300px;width:400px; -webkit-transform: scaleX(-1); transform:scaleX(-1);" src="libraries/webgazer/imgs/ideal_pose.png"/>
           </td>
           <td>
             <span id="webcam_insert"></span>
@@ -108,7 +108,7 @@ Updates by Anthony Haffey (a.haffey@reading.ac.uk) 2020 to make this a task that
   <div id="calibration_dot" class="stimuli">
     <div id="calibration_cnt">0</div>
   </div>
-  <div id="stimulus" class="stimuli"><img src="../libraries/webgazer/imgs/talking.jpg" /></div>
+  <div id="stimulus" class="stimuli"><img src="libraries/webgazer/imgs/talking.jpg" /></div>
   <div id="stimuli_dot" class="stimuli"></div>
   <div id="stimuli_bar" class="stimuli"></div>
   <div id="stimuli_fixation" class="stimuli">+</div>
@@ -434,7 +434,8 @@ function initializeCam() {
   video.style.margin = '0px';
   $('#webgazerVideoFeed').css({
     'left': '50%',
-    'transform': 'translate(-50%, 0)',
+    '-webkit-transform': 'scaleX(-1)',
+    'transform': 'scaleX(-1) translate(50%, 0)',
     'margin': '20px'
   }).detach().insertAfter('#webcam_insert').get(0).play();
   
@@ -963,28 +964,8 @@ function saveData() {
   sendData();
 }
 
+
 function sendData() {
-  var this_context; 
-  
-  //turn to false to make use of eel and python
-	if(document.URL.indexOf("localhost") !== -1){
-		if(typeof(parent.dropbox_developer) !== "undefined" &&
-							parent.dropbox_developer  ==  true){
-			this_context = "github";
-		} else {
-			this_context = "localhost";
-		}
-	} else if(document.URL.indexOf("github.io") !== -1) { //assume it's github
-		this_context = "github";
-	} else if(document.URL.indexOf("gitpod.io") !== -1){
-		this_context = "gitpod"
-	} else {
-		this_context = "server";
-	}
-  
-  /*
-  * add calibration / validation / freeview number
-  */
 
   var sub_trial_no = -1;
   switch(gaze_phase){
@@ -999,18 +980,32 @@ function sendData() {
       break;
   }
   
-  switch(parent.parent.Collector.detect_context()){
+  switch(parent.parent.Study.get_vars.platform){
+    case "preview":
+      //do nothing
+      break;
     case "localhost":
+      console.dir("data");
+      console.dir(data);
       data.forEach(function(trial,trial_no){
         if (trial !== null){
-          parent.parent.eel.save_data(parent.parent.Study.get_vars.location,
-                                      parent.parent.$("#participant_code").val(),
-                                      gaze_phase + 
-                                        "-" + 
-                                        trial_no + 
-                                        "-" +
-                                        sub_trial_no,
-                                      Papa.unparse(data[trial_no].raw))
+          parent.parent.Collector.electron.fs.write_data(
+            parent.parent.Study.get_vars.location, 
+            parent.parent.$("#participant_code").val() + "/" +
+              gaze_phase                               + "-" + 
+              trial_no                                 + "-" +
+              sub_trial_no                             + ".csv",
+            Papa.unparse(data[trial_no].raw)
+          );
+                                      
+                                      /*
+                                      
+                                      error above
+                                      
+                                      */
+                                      
+                                      
+                                      
            parent.parent.online_save(parent.parent.Study.get_vars.location,
                     parent.parent.$("#participant_code").val() + 
                       gaze_phase + 
@@ -1033,31 +1028,30 @@ function sendData() {
         }
       });
       break;
-    case "github":
-      
+    default:
       data.forEach(function(trial,trial_no){
-        if (trial !== null){
-                   parent.parent.online_save(parent.parent.Study.get_vars.location,
-                    parent.parent.$("#participant_code").val() + 
-                      "-" + gaze_phase + 
-                      "-trial-" + 
-                      parent.parent.exp_json.trial_no +
-                      "-" +
-                      trial_no + 
-                      "-" +
-                      sub_trial_no,
-                    parent.parent.$("#completion_code").val(),
-                    parent.parent.$("#prehashed_code").val(),  
-                    Papa.unparse(data[trial_no].raw),          //the data
-          save_script.split("|"),
-          function(){
-            parent.parent.online_data_obj.saves_ended ++;
-          });
-          data[trial_no] = null;
-        }
-      });
-      
-      break;
+          if (trial !== null){
+                     parent.parent.online_save(parent.parent.Study.get_vars.location,
+                      parent.parent.$("#participant_code").val() + 
+                        "-" + gaze_phase + 
+                        "-trial-" + 
+                        parent.parent.exp_json.trial_no +
+                        "-" +
+                        trial_no + 
+                        "-" +
+                        sub_trial_no,
+                      parent.parent.$("#completion_code").val(),
+                      parent.parent.$("#prehashed_code").val(),  
+                      Papa.unparse(data[trial_no].raw),          //the data
+            save_script.split("|"),
+            function(){
+              parent.parent.online_data_obj.saves_ended ++;
+            });
+            data[trial_no] = null;
+          }
+        });
+        
+        break;
   }
 }
 
