@@ -70,7 +70,7 @@ Updates by Anthony Haffey (a.haffey@reading.ac.uk) 2020 to make this a task that
       <table>
         <tr>
           <td>
-            <img style="height:300px;width:400px" src="libraries/webgazer/imgs/ideal_pose.png"/>Another attempt to push
+            <img style="height:300px;width:400px" src="libraries/webgazer/imgs/ideal_pose.png"/>
           </td>
           <td>
             <span id="webcam_insert"></span>
@@ -493,7 +493,8 @@ function prepareBlock() {
  ************************************/
 function startCalibration() {
   if(calibration_skip == "skip" || 
-     calibration_skip == "on" ||
+     calibration_skip == "on"  ||
+     calibration_skip == "yes" ||
      calibration_skip == "true"){
     endValidation()
   } else {
@@ -1342,6 +1343,17 @@ function freeviewStart() {
   image_pair = tFreeview.stimuli.shift();
   
   [left_image,right_image] = [image_pair.image_1,image_pair.image_2];
+  
+  /*
+  * Some code to make this work on installed version of Collector
+  */
+  switch(parent.parent.Study.get_vars.platform){
+    case "preview":
+    case "localhost":
+      left_image = "../../" + left_image;
+      right_image = "../../" + right_image;
+      break;
+  }
   
   var baseline_time = new Date().getTime();
   
