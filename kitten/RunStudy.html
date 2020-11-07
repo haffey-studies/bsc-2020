@@ -1216,7 +1216,7 @@ function select_condition(){
     exp_json.this_condition.mobile.toLowerCase() == "no" &&
     window.mobilecheck()
   ){
-    bootbox.alert("you're not good to go");    
+    alert("This experiment will not run on a mobile device. Please complete it on a laptop or desktop");
   } else{
     Study.activate_pipe();
   }
