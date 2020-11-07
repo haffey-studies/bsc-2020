@@ -396,7 +396,7 @@
       "download_at_end",
       "forward_at_end",
       "mobile",
-      null
+      ""
     ],
     [
       "condition_1",
@@ -412,7 +412,7 @@
       "on",
       "https://app.prolific.co/submissions/complete?cc=NMEZ69QB",
       "no",
-      null
+      ""
     ],
     [
       "condition_2",
@@ -428,7 +428,7 @@
       "on",
       "https://app.prolific.co/submissions/complete?cc=NMEZ69QB",
       "no",
-      null
+      ""
     ],
     [
       "",
@@ -444,7 +444,7 @@
       "",
       "",
       "",
-      null
+      ""
     ]
   ],
   "all_stims": {
@@ -5807,6 +5807,7 @@
       "buffer": "5",
       "download_at_end": "on",
       "forward_at_end": "https://app.prolific.co/submissions/complete?cc=NMEZ69QB",
+      "mobile": "no",
       "": ""
     },
     {
@@ -5822,6 +5823,7 @@
       "buffer": "5",
       "download_at_end": "on",
       "forward_at_end": "https://app.prolific.co/submissions/complete?cc=NMEZ69QB",
+      "mobile": "no",
       "": ""
     }
   ],

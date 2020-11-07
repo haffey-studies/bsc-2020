@@ -1216,7 +1216,7 @@ function select_condition(){
     exp_json.this_condition.mobile.toLowerCase() == "no" &&
     window.mobilecheck()
   ){
-    alert("This experiment will not run on a mobile device. Please complete it on a laptop or desktop");
+    alert("This experiment will not run on a mobile device. Please complete it on a laptop or desktop (using google chrome if possible).");
   } else{
     Study.activate_pipe();
   }
