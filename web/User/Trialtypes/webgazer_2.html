@@ -991,7 +991,7 @@ function sendData() {
         if (trial !== null){
           parent.parent.Collector.electron.fs.write_data(
             parent.parent.Study.get_vars.location, 
-            parent.parent.$("#participant_code").val() + "/" +
+            parent.parent.$("#participant_code").val() + "-" +
               gaze_phase                               + "-" + 
               trial_no                                 + "-" +
               sub_trial_no                             + ".csv",
