@@ -596,6 +596,10 @@ encrypt_obj = {
                         if(usernames.length > 0){
                           var username = usernames.pop();
                           this_participant_message = this_decrypted_message.filter(row => row.username == username);
+
+                          console.dir("this_participant_message");
+                          console.dir(this_participant_message);
+
                           bootbox.prompt({
                             title: "What would you like to name this file?",
                             value: username,
@@ -612,14 +616,13 @@ encrypt_obj = {
                                   skipEmptyLines: true, //or 'greedy',
                                   columns: null //or array of strings
                                 }));
+                                recursive_username_decryption(usernames);
                               }
                             }
                           });
-                          recursive_username_decryption(usernames);
                         }
                       }
                       recursive_username_decryption(usernames);
-
                     } else {
                       //do all participants in one go
                       default_filename = "batch";

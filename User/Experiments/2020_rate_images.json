@@ -1,0 +1,527 @@
+{
+  "all_procs": {
+    "procedure_1.csv": [
+      [
+        "Item",
+        "Trial Type",
+        "Max Time",
+        "Text",
+        "Shuffle 1",
+        "weight",
+        "survey",
+        "btn_width",
+        "instruct_1",
+        "responses_1",
+        "instruct_2",
+        "responses_2",
+        "instruct_3",
+        "responses_3",
+        "cue_height",
+        "cue_width",
+        "n_trials",
+        "fb_time",
+        ""
+      ],
+      [
+        "0",
+        "instruct",
+        "user",
+        "You are about to be presented with a series of images<br>\n<br>\nPlease rate how much you like each image.<br>\n<br>\nPlease also rate how excited/jittery the image makes you feel (this can be both positive and negative)",
+        "off",
+        "1",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2 to 61",
+        "rate_image",
+        "user",
+        "",
+        "rate_random",
+        "1",
+        "",
+        "50px",
+        "How pleasant is the image (1 = very unpleasant; 5 = neutral; 9 = very pleasant)",
+        "1|2|3|4|5|6|7|8|9",
+        "How excited/jittery does the image make you feel (1 = very bored; 5 = neutral; 9 = very excited)",
+        "1|2|3|4|5|6|7|8|9",
+        "",
+        "",
+        "300",
+        "400",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  "cond_array": [
+    [
+      "name",
+      "notes",
+      "stimuli",
+      "procedure",
+      "fullscreen",
+      "welcome",
+      "participant_id",
+      "end_message",
+      "start_message",
+      "buffer",
+      "scripts",
+      ""
+    ],
+    [
+      "condition_1",
+      "You can put more detailed notes in this field",
+      "stimuli_1.csv",
+      "procedure_1.csv",
+      "off",
+      "",
+      "on",
+      "",
+      "",
+      "5",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "all_stims": {
+    "stimuli_1.csv": [
+      [
+        "cue",
+        "image_type",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/bird1.jpg",
+        "animal",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/bird3.jpg",
+        "animal",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/cat5.jpg",
+        "animal",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/chipmunk2.jpg",
+        "animal",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/dog6.jpg",
+        "animal",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/cold1.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/car1.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/bricks1.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/phone1.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/archery2.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/lake9.jpg",
+        "nonsocial",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/nature1.jpg",
+        "nonsocial",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/nature2.jpg",
+        "nonsocial",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/rainbow2.jpg",
+        "nonsocial",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/sunset5.jpg",
+        "nonsocial",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/cups2.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/fence2.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/firehydrant2.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/roofing3.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/sidewalk3.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/dancing7.jpg",
+        "social",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/excitedface2.jpg",
+        "social",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/father1.jpg",
+        "social",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/gazing6.jpg",
+        "social",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/mother1.jpg",
+        "social",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/timber2.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/officesupplies5.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/biking1.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/cups4.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/fence6.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/elephant1.jpg",
+        "animal",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/horse1.jpg",
+        "animal",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/lamb1.jpg",
+        "animal",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/penguins2.jpg",
+        "animal",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/zebra1.jpg",
+        "animal",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/beach1.jpg",
+        "nonsocial",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/bridge1.jpg",
+        "nonsocial",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/fireworks2.jpg",
+        "nonsocial",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/flowers8.jpg",
+        "nonsocial",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/galaxy7.jpg",
+        "nonsocial",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/baby1.jpg",
+        "social",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/couple4.jpg",
+        "social",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/Picnic1.jpg",
+        "social",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/siblings1.jpg",
+        "social",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/wedding10.jpg",
+        "social",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/cups1.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/fence1.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/firehydrant1.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/roofing2.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/sidewalk1.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/ambulance3.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/road1.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/officesupplies3.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/solarpanel1.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/billiards1.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/motocross1.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/carrace3.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/firehydrant3.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/roofing5.jpg",
+        "control",
+        ""
+      ],
+      [
+        "../User/Stimuli/gaze_images/unscrambled/sidewalk5.jpg",
+        "control",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  "public_key": "Gag8f89c30cdKRaw8rhOKGiAdSY4iEVqzyl0kc91LGk=",
+  "parsed_procs": {
+    "procedure_1.csv": [
+      {
+        "weight": "1",
+        "survey": "",
+        "btn_width": "",
+        "instruct_1": "",
+        "responses_1": "",
+        "instruct_2": "",
+        "responses_2": "",
+        "instruct_3": "",
+        "responses_3": "",
+        "cue_height": "",
+        "cue_width": "",
+        "n_trials": "",
+        "fb_time": "",
+        "": "",
+        "item": "0",
+        "trial type": "instruct",
+        "max time": "user",
+        "text": "You are about to be presented with a series of images<br>\n<br>\nPlease rate how much you like each image.<br>\n<br>\nPlease also rate how excited/jittery the image makes you feel (this can be both positive and negative)",
+        "shuffle 1": "off"
+      },
+      {
+        "weight": "1",
+        "survey": "",
+        "btn_width": "50px",
+        "instruct_1": "How pleasant is the image (1 = very unpleasant; 5 = neutral; 9 = very pleasant)",
+        "responses_1": "1|2|3|4|5|6|7|8|9",
+        "instruct_2": "How excited/jittery does the image make you feel (1 = very bored; 5 = neutral; 9 = very excited)",
+        "responses_2": "1|2|3|4|5|6|7|8|9",
+        "instruct_3": "",
+        "responses_3": "",
+        "cue_height": "300",
+        "cue_width": "400",
+        "n_trials": "",
+        "fb_time": "",
+        "": "",
+        "item": "2 to 61",
+        "trial type": "rate_image",
+        "max time": "user",
+        "text": "",
+        "shuffle 1": "rate_random"
+      }
+    ]
+  },
+  "surveys": {},
+  "trialtypes": {
+    "instruct": "<!--\n/*  Collector (Garcia, Kornell, Kerr, Blake & Haffey)\n    A program for running experiments on the web\n    Copyright 2012-2016 Mikey Garcia & Nate Kornell\n\n\n    This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License version 3 as published by\n    the Free Software Foundation.\n\n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n\n    You should have received a copy of the GNU General Public License\n    along with this program.  If not, see <http://www.gnu.org/licenses/>\n \t\t\n\t\tKitten release (2019) author: Dr. Anthony Haffey (team@someopen.solutions)\t\t\n*/\n-->\n<style>\n#instruct_text{\n  margin:auto;\n  width:500px;\n  padding:50px;\n  max-height:600px;\n  text-align: center;  \n}\n#proceed_button{\n  position:absolute;\n  right: 20px;\n}\n#trial_contents{\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:600;\n  height:600;\n}\n</style>\n<div id=\"trial_contents\">\n  <div id=\"instruct_text\">{{text}}</div>\n  <div>\n    <button class=\"btn btn-primary\" id=\"proceed_button\" onclick=\"Trial.submit()\">Proceed</button>\n  </div>\n</div>",
+    "rate_image": "<!--\nThis is from Borcsok, Fitzgibbins and Haffey (2020) investigation into gambling and alcohol behaviour\n-->\n<style>\n#face_img{\n  width:{{cue_width}};\n  height:{{cue_height}};\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n#instructions{\n  text-align: center;\n  font-size:20px;\n}\n#response_div{\n  margin: auto;\n  width: 100%;\n  padding: 10px;\n  text-align: center;\n}\n#submit_btn{\n  margin:0 auto;\n  display:none;\n}\n.response_btn{\n  margin:5px;\n  width:{{btn_width}};\n}\n</style>\n<img src=\"{{cue}}\" id=\"face_img\"/>  <!-- if you want to refer to a local image, you need to identify it's relative location to RunStudy.html -->\n<div id=\"response_div\"></div>\n<div id=\"button_container\">\n  <button class=\"btn btn-danger\" onclick=\"Trial.submit()\" id=\"submit_btn\">Submit</button>\n</div>\n<input type=\"hidden\" name=\"face_response\" id=\"face_response\"/>\n<script>\nno_stims = 0;\nresp_div_html = \"\";\nresp_upper    = 0;\nresponses_array =   [\"{{responses_1}}\",\n                     \"{{responses_2}}\",\n                     \"{{responses_3}}\"];\ninstruction_array = [\"{{instruct_1}}\",\n                     \"{{instruct_2}}\",\n                     \"{{instruct_3}}\"];\n\nrow_classes = [\"primary\",\n               \"info\",\n               \"secondary\"];\n\nfor(var i = 0; i < 3; i++){\n  responses = responses_array[i];\n  if(responses == \"\"){\n    break;\n  }\n  no_stims++;\n  \n  responses = responses.split(\"|\");\n  resp_div_html += \"<h3 class='text-\" + row_classes[i] + \"'>\" +  instruction_array[i] + \"</h3>\";\n  resp_div_html += \"<div style='margin:10px'>\";\n  resp_div_html += responses.map(function(response){\n    return \"<button name='face_rating_\" + (i+1) + \"' class='btn btn-\" + row_classes[i] + \" response_btn'>\" + response + \"</button>\";\n  }).join(\"\");\n  resp_div_html += \"<input type='hidden' id='face_response_\" + (i+1) + \"' name='face_response_\" + (i+1) + \"'>\";\n  resp_div_html += \"</div>\";\n};\n\n$(\"#response_div\").html(resp_div_html);\n$(\".response_btn\").on(\"click\",function(){\n  var response_id = $(this).attr(\"name\").replace(\"rating\",\"response\");\n  $(\"#\" + response_id).val(this.innerHTML);\n  $('[name=\"' + $(this).attr(\"name\") + '\"]').removeClass(\"btn-danger\");\n  $(this).addClass(\"btn-danger\");\n  check_responses();\n});\nfunction check_responses(){\n  valid_responses = 0;\n  for(var i = 1; i < no_stims + 1; i++){\n    if($(\"#face_response_\" + i).val() !== \"\"){\n      valid_responses++;\n    }\n  }\n  if(valid_responses == no_stims){\n    $(\"#submit_btn\").css(\"display\", \"block\");\n  }\n}\n</script>"
+  },
+  "procs_csv": {
+    "procedure_1.csv": "Item,Trial Type,Max Time,Text,Shuffle 1,weight,survey,btn_width,instruct_1,responses_1,instruct_2,responses_2,instruct_3,responses_3,cue_height,cue_width,n_trials,fb_time,\r\n0,instruct,user,\"You are about to be presented with a series of images<br>\n<br>\nPlease rate how much you like each image.<br>\n<br>\nPlease also rate how excited/jittery the image makes you feel (this can be both positive and negative)\",off,1,,,,,,,,,,,,,\r\n2 to 61,rate_image,user,,rate_random,1,,50px,How pleasant is the image (1 = very unpleasant; 5 = neutral; 9 = very pleasant),1|2|3|4|5|6|7|8|9,How excited/jittery does the image make you feel (1 = very bored; 5 = neutral; 9 = very excited),1|2|3|4|5|6|7|8|9,,,300,400,,,\r\n,,,,,,,,,,,,,,,,,,"
+  },
+  "stims_csv": {
+    "stimuli_1.csv": "cue,image_type,\r\n../User/Stimuli/gaze_images/unscrambled/bird1.jpg,animal,\r\n../User/Stimuli/gaze_images/unscrambled/bird3.jpg,animal,\r\n../User/Stimuli/gaze_images/unscrambled/cat5.jpg,animal,\r\n../User/Stimuli/gaze_images/unscrambled/chipmunk2.jpg,animal,\r\n../User/Stimuli/gaze_images/unscrambled/dog6.jpg,animal,\r\n../User/Stimuli/gaze_images/unscrambled/cold1.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/car1.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/bricks1.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/phone1.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/archery2.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/lake9.jpg,nonsocial,\r\n../User/Stimuli/gaze_images/unscrambled/nature1.jpg,nonsocial,\r\n../User/Stimuli/gaze_images/unscrambled/nature2.jpg,nonsocial,\r\n../User/Stimuli/gaze_images/unscrambled/rainbow2.jpg,nonsocial,\r\n../User/Stimuli/gaze_images/unscrambled/sunset5.jpg,nonsocial,\r\n../User/Stimuli/gaze_images/unscrambled/cups2.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/fence2.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/firehydrant2.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/roofing3.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/sidewalk3.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/dancing7.jpg,social,\r\n../User/Stimuli/gaze_images/unscrambled/excitedface2.jpg,social,\r\n../User/Stimuli/gaze_images/unscrambled/father1.jpg,social,\r\n../User/Stimuli/gaze_images/unscrambled/gazing6.jpg,social,\r\n../User/Stimuli/gaze_images/unscrambled/mother1.jpg,social,\r\n../User/Stimuli/gaze_images/unscrambled/timber2.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/officesupplies5.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/biking1.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/cups4.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/fence6.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/elephant1.jpg,animal,\r\n../User/Stimuli/gaze_images/unscrambled/horse1.jpg,animal,\r\n../User/Stimuli/gaze_images/unscrambled/lamb1.jpg,animal,\r\n../User/Stimuli/gaze_images/unscrambled/penguins2.jpg,animal,\r\n../User/Stimuli/gaze_images/unscrambled/zebra1.jpg,animal,\r\n../User/Stimuli/gaze_images/unscrambled/beach1.jpg,nonsocial,\r\n../User/Stimuli/gaze_images/unscrambled/bridge1.jpg,nonsocial,\r\n../User/Stimuli/gaze_images/unscrambled/fireworks2.jpg,nonsocial,\r\n../User/Stimuli/gaze_images/unscrambled/flowers8.jpg,nonsocial,\r\n../User/Stimuli/gaze_images/unscrambled/galaxy7.jpg,nonsocial,\r\n../User/Stimuli/gaze_images/unscrambled/baby1.jpg,social,\r\n../User/Stimuli/gaze_images/unscrambled/couple4.jpg,social,\r\n../User/Stimuli/gaze_images/unscrambled/Picnic1.jpg,social,\r\n../User/Stimuli/gaze_images/unscrambled/siblings1.jpg,social,\r\n../User/Stimuli/gaze_images/unscrambled/wedding10.jpg,social,\r\n../User/Stimuli/gaze_images/unscrambled/cups1.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/fence1.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/firehydrant1.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/roofing2.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/sidewalk1.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/ambulance3.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/road1.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/officesupplies3.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/solarpanel1.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/billiards1.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/motocross1.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/carrace3.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/firehydrant3.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/roofing5.jpg,control,\r\n../User/Stimuli/gaze_images/unscrambled/sidewalk5.jpg,control,\r\n,,"
+  },
+  "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\n,,,,,,,,,,,",
+  "conditions": [
+    {
+      "name": "condition_1",
+      "notes": "You can put more detailed notes in this field",
+      "stimuli": "stimuli_1.csv",
+      "procedure": "procedure_1.csv",
+      "fullscreen": "off",
+      "welcome": "",
+      "participant_id": "on",
+      "end_message": "",
+      "start_message": "",
+      "buffer": "5",
+      "scripts": "",
+      "": ""
+    }
+  ],
+  "location": "haffey-studies/bsc-2020",
+  "storage_scripts": {
+    "ocollector.org": "https://ocollector.org/StoreData10_aodirnkcu73hsjd8.php"
+  }
+}
