@@ -1,6 +1,6 @@
 item_name,text,Type,Answers,Values,Score: dep_soc_stigma,Optional,btn_width,
-Instructions1,"<span style='font-size:26px'><span style='color:#3f78d5'>The following statements are about anxiety disorders. Please indicate how strongly you
-personally agree or disagree with each statement. </span></span>",Instruct,,,,,,
+Instructions1,"<span style='font-size:26px'><span style='color:#3f78d5'>The following statements are about anxiety disorders. Please indicate how strongly <u><b>you
+personally</b></u> agree or disagree with each statement. </span></span>",Instruct,,,,,,
 GASSQ1_pers,An anxiety disorder is not a real medical illness,likert,Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree,0|1|2|3|4,1,No,100px,
 GASSQ2_pers,An anxiety disorder is a sign of personal weakness,likert,Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree,0|1|2|3|4,1,No,100px,
 GASSQ3_pers,People with an anxiety disorder could snap out of it if they wanted to,likert,Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree,0|1|2|3|4,1,No,100px,
