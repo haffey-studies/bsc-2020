@@ -40827,7 +40827,7 @@
             ],
             [
               "Instructions1",
-              "<span style='font-size:26px'><span style='color:#3f78d5'>The following statements are about anxiety disorders. Please indicate how strongly you\r\npersonally agree or disagree with each statement. </span></span>",
+              "<span style='font-size:26px'><span style='color:#3f78d5'>The following statements are about anxiety disorders. Please indicate how strongly <u><b>you\r\npersonally</b></u> agree or disagree with each statement. </span></span>",
               "Instruct",
               "",
               "",
@@ -65299,7 +65299,7 @@
         ],
         [
           "Instructions1",
-          "<span style='font-size:26px'><span style='color:#3f78d5'>The following statements are about anxiety disorders. Please indicate how strongly you\r\npersonally agree or disagree with each statement. </span></span>",
+          "<span style='font-size:26px'><span style='color:#3f78d5'>The following statements are about anxiety disorders. Please indicate how strongly <u><b>you\r\npersonally</b></u> agree or disagree with each statement. </span></span>",
           "Instruct",
           "",
           "",
