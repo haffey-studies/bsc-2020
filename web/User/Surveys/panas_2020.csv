@@ -1,5 +1,5 @@
 item_name,text,Type,Answers,Values,Score: PANAS_tot,Score: pos_aff,Score: neg_aff,Optional,btn_width,
-Instructions1,<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to how you felt during the first mo:</span></span>,Instruct,,,,,,,,
+Instructions1,<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to how you felt during the first month of lockdown:</span></span>,Instruct,,,,,,,,
 PANAS1,Interested during the first month of lockdown,likert,Very slightly or not at all|A little|Moderately|Quite abit| Extremely,1|2|3|4|5,1,1,,No,100px,
 PANAS2,Distressed during the first month of lockdown,likert,Very slightly or not at all|A little|Moderately|Quite abit| Extremely,1|2|3|4|5,r1,,r1,No,100px,
 PANAS3,Excited during the first month of lockdown,likert,Very slightly or not at all|A little|Moderately|Quite abit| Extremely,1|2|3|4|5,1,1,,No,100px,

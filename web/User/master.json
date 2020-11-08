@@ -44773,7 +44773,7 @@
             ],
             [
               "Instructions1",
-              "<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to how you felt during the first mo:</span></span>",
+              "<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to how you felt during the first month of lockdown:</span></span>",
               "Instruct",
               "",
               "",
@@ -47907,7 +47907,7 @@
             ],
             [
               "Instructions1",
-              "<span style='color:#006699'><span style='font-size:20px'>Select yes for each item that applies to you:</span></span>",
+              "<span style='color:#006699'><span style='font-size:20px'>Select yes or no to identify whether each statement applies to you:</span></span>",
               "instruct",
               "",
               "",
@@ -57385,7 +57385,7 @@
         ],
         [
           "Instructions1",
-          "<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to how you felt during the first mo:</span></span>",
+          "<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to how you felt during the first month of lockdown:</span></span>",
           "Instruct",
           "",
           "",
@@ -66104,7 +66104,7 @@
         ],
         [
           "Instructions1",
-          "<span style='color:#006699'><span style='font-size:20px'>Select yes for each item that applies to you:</span></span>",
+          "<span style='color:#006699'><span style='font-size:20px'>Select yes or no to identify whether each statement applies to you:</span></span>",
           "instruct",
           "",
           "",
