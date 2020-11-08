@@ -52,7 +52,7 @@
       "procedure_1.csv",
       "off",
       "",
-      "random",
+      "on",
       "",
       "",
       "5",
@@ -2991,7 +2991,7 @@
   "stims_csv": {
     "stimuli_1.csv": "cue,answer,\r\nA,Apple,\r\nB,Banana,\r\n,,"
   },
-  "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,random,,,5,,\r\n,,,,,,,,,,,",
+  "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\n,,,,,,,,,,,",
   "mods": {},
   "conditions": [
     {
