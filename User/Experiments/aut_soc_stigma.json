@@ -8,7 +8,7 @@
         "text",
         "Shuffle 1",
         "survey",
-        null
+        ""
       ],
       [
         "2",
@@ -17,16 +17,16 @@
         "This is the start of a new experiment.",
         "off",
         "aut_soc_stigma.csv",
-        null
+        ""
       ],
       [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
       ]
     ]
   },
@@ -43,7 +43,7 @@
       "start_message",
       "buffer",
       "scripts",
-      null
+      ""
     ],
     [
       "condition_1",
@@ -57,21 +57,21 @@
       "",
       "5",
       "",
-      null
+      ""
     ],
     [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ]
   ],
   "all_stims": {
@@ -79,22 +79,22 @@
       [
         "cue",
         "answer",
-        null
+        ""
       ],
       [
         "A",
         "Apple",
-        null
+        ""
       ],
       [
         "B",
         "Banana",
-        null
+        ""
       ],
       [
-        null,
-        null,
-        null
+        "",
+        "",
+        ""
       ]
     ]
   },
@@ -245,6 +245,140 @@
         null,
         null,
         null
+      ]
+    ],
+    "autism_stigma_perception.csv": [
+      [
+        "item_name",
+        "text",
+        "Type",
+        "Answers",
+        "Values",
+        "Score: ASS_personal",
+        "Optional",
+        "btn_width",
+        ""
+      ],
+      [
+        "Instructions1",
+        "<span style='color:#006699'><span style='font-size:20px'>How strongly do you personally agree with each statement?</span></span>",
+        "Instruct",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "ASS_Personal1",
+        "People with autism could snap out of it if they wanted. ",
+        "likert",
+        "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
+        "4|3|2|1|0",
+        "1",
+        "No",
+        "100px",
+        ""
+      ],
+      [
+        "ASS_Personal2",
+        "Autism is a sign of personal weakness.",
+        "likert",
+        "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
+        "4|3|2|1|0",
+        "1",
+        "No",
+        "100px",
+        ""
+      ],
+      [
+        "ASS_Personal3",
+        "Autism is not a real medical illness. ",
+        "likert",
+        "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
+        "4|3|2|1|0",
+        "1",
+        "No",
+        "100px",
+        ""
+      ],
+      [
+        "ASS_Personal4",
+        "People with autism are dangerous. ",
+        "likert",
+        "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
+        "4|3|2|1|0",
+        "1",
+        "No",
+        "100px",
+        ""
+      ],
+      [
+        "ASS_Personal5",
+        "It is best to avoid people with autism so you don't become autistic yourself. ",
+        "likert",
+        "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
+        "4|3|2|1|0",
+        "1",
+        "No",
+        "100px",
+        ""
+      ],
+      [
+        "ASS_Personal6",
+        "People with autism are unpredictable. ",
+        "likert",
+        "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
+        "4|3|2|1|0",
+        "1",
+        "No",
+        "100px",
+        ""
+      ],
+      [
+        "ASS_Personal7",
+        "If I had autism I would not tell anyone. ",
+        "likert",
+        "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
+        "4|3|2|1|0",
+        "1",
+        "No",
+        "100px",
+        ""
+      ],
+      [
+        "ASS_Personal8",
+        "I would not employ someone if I knew they had autism. ",
+        "likert",
+        "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
+        "4|3|2|1|0",
+        "1",
+        "No",
+        "100px",
+        ""
+      ],
+      [
+        "ASS_Personal9",
+        "I would not vote for a politican if I knew they had autism. ",
+        "likert",
+        "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
+        "4|3|2|1|0",
+        "1",
+        "No",
+        "100px",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
       ]
     ]
   },
