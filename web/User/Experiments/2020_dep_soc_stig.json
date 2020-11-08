@@ -236,15 +236,136 @@
         ""
       ],
       [
-        "",
-        "",
-        "",
+        "Instructions1",
+        "<span style='font-size:26px'><span style='color:#3f78d5'>These questions contain statements about depression. Please indicate how strongly <u><b>you think your parent</b></u> agrees or disagrees with each statement. There's no need to ask them to complete it, just try to estimate how they would repond to each item:</span></span>",
+        "Instruct",
         "",
         "",
         "",
         "",
         "",
         ""
+      ],
+      [
+        "gass_soc_parent",
+        "Please answer the following questions on behalf of one of your parents. Which parent will this be based on? Please write \"Mother\" or \"Father\" if possible, or explain if the person you have chosen is a step-parent or other relative.",
+        "text",
+        "",
+        "",
+        "",
+        "No",
+        "",
+        null
+      ],
+      [
+        "DSSQ1_soc_parent",
+        "Most people believe that people with depression could snap out of it if they wanted.",
+        "likert",
+        "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+        "0|1|2|3|4",
+        "1",
+        "No",
+        "100px",
+        null
+      ],
+      [
+        "DSSQ2_soc_parent",
+        "Most people believe that depression is a sign of personal weakness.",
+        "likert",
+        "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+        "0|1|2|3|4",
+        "1",
+        "No",
+        "100px",
+        null
+      ],
+      [
+        "DSSQ3_soc_parent",
+        "Most people believe that depression is not a medical illness.",
+        "likert",
+        "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+        "0|1|2|3|4",
+        "1",
+        "No",
+        "100px",
+        null
+      ],
+      [
+        "DSSQ4_soc_parent",
+        "Most people believe that people with depression are dangerous.",
+        "likert",
+        "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+        "0|1|2|3|4",
+        "1",
+        "No",
+        "100px",
+        null
+      ],
+      [
+        "DSSQ5_soc_parent",
+        "Most people believe that it is best to avoid people with depression so that you don’t become depressed yourself.",
+        "likert",
+        "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+        "0|1|2|3|4",
+        "1",
+        "No",
+        "100px",
+        null
+      ],
+      [
+        "DSSQ6_soc_parent",
+        "Most people believe that people with depression are unpredictable.",
+        "likert",
+        "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+        "0|1|2|3|4",
+        "1",
+        "No",
+        "100px",
+        null
+      ],
+      [
+        "DSSQ7_soc_parent",
+        "If they had depression, most people would not tell anyone.",
+        "likert",
+        "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+        "0|1|2|3|4",
+        "1",
+        "No",
+        "100px",
+        null
+      ],
+      [
+        "DSSQ8_soc_parent",
+        "Most people would not employ someone they knew had been depressed.",
+        "likert",
+        "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+        "0|1|2|3|4",
+        "1",
+        "No",
+        "100px",
+        null
+      ],
+      [
+        "DSSQ9_soc_parent",
+        "Most people would not vote for a politician they knew had been depressed.",
+        "likert",
+        "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+        "0|1|2|3|4",
+        "1",
+        "No",
+        "100px",
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
       ]
     ]
   },

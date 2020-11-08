@@ -8,7 +8,7 @@
         "text",
         "Shuffle 1",
         "survey",
-        null
+        ""
       ],
       [
         "2",
@@ -17,16 +17,16 @@
         "This is the start of a new experiment.",
         "off",
         "anx_stigma_societal.csv",
-        null
+        ""
       ],
       [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
       ]
     ]
   },
@@ -43,7 +43,7 @@
       "start_message",
       "buffer",
       "scripts",
-      null
+      ""
     ],
     [
       "condition_1",
@@ -57,21 +57,21 @@
       "",
       "5",
       "",
-      null
+      ""
     ],
     [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ]
   ],
   "all_stims": {
@@ -79,22 +79,22 @@
       [
         "cue",
         "answer",
-        null
+        ""
       ],
       [
         "A",
         "Apple",
-        null
+        ""
       ],
       [
         "B",
         "Banana",
-        null
+        ""
       ],
       [
-        null,
-        null,
-        null
+        "",
+        "",
+        ""
       ]
     ]
   },
@@ -127,7 +127,7 @@
       ],
       [
         "Instructions1",
-        "<span style='font-size:26px'><span style='color:#3f78d5'>The following statements are about anxiety disorders. Please indicate how strongly <u><b>you personally</b></u> agree or disagree with each statement. </span></span>",
+        "<span style='font-size:26px'><span style='color:#3f78d5'>The following statements are about anxiety disorders. <br>\n<br>\nWe would like you to tell us what you think most other people believe. Please indicate how strongly <u><b>you personally</b></u> agree or disagree with each statement. </span></span><br>",
         "Instruct",
         "",
         "",
@@ -247,17 +247,6 @@
         null
       ],
       [
-        "gass_soc_parent",
-        "Please answer the following questions on behalf of one of your parents. Which parent will this be based on? Please write \"Mother\" or \"Father\" if possible, or explain if the person you have chosen is a step-parent or other relative.",
-        "text",
-        null,
-        null,
-        null,
-        "No",
-        null,
-        null
-      ],
-      [
         "Instructions1",
         "<span style='font-size:26px'><span style='color:#3f78d5'>The following statements are about anxiety disorders. Please indicate how strongly <u><b>you think your parent</b></u> agrees or disagrees with each statement. There's no need to ask them to complete it, just try to estimate how they would repond to each item:</span></span>",
         "Instruct",
@@ -265,6 +254,17 @@
         "",
         "",
         "",
+        "",
+        null
+      ],
+      [
+        "gass_soc_parent",
+        "Please answer the following questions on behalf of one of your parents. Which parent will this be based on? Please write \"Mother\" or \"Father\" if possible, or explain if the person you have chosen is a step-parent or other relative.",
+        "text",
+        "",
+        "",
+        "",
+        "No",
         "",
         null
       ],

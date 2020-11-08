@@ -30,7 +30,7 @@
               "2 to 74",
               "rate_image",
               "user",
-              "<h1>Here's my survey title</h1><br>\n<br>\n<br>\nHello <b>this is in bold</b> <em>this is in italics</em> <br>\n<br>\n<br>\nThanks for participating<br>\n<br>\n<b>now it's in bold</b><br>\n<br>\n<br>\n<u>here's something underlined</u><br>\n<br>\n",
+              "<h1>Here's my survey title</h1><br>\r\n<br>\r\n<br>\r\nHello <b>this is in bold</b> <em>this is in italics</em> <br>\r\n<br>\r\n<br>\r\nThanks for participating<br>\r\n<br>\r\n<b>now it's in bold</b><br>\r\n<br>\r\n<br>\r\n<u>here's something underlined</u><br>\r\n<br>\r\n",
               "trials",
               "50px",
               "How pleasant is the image (1 = very unpleasant; 5 = neutral; 9 = very pleasant)",
@@ -468,20 +468,25 @@
             ]
           ]
         },
-        "public_key": "q+QFJgkGF6eb8SzHJUUnPonMQY0xHjPkPXtqHkwEo1A=",
+        "public_key": "Gag8f89c30cdKRaw8rhOKGiAdSY4iEVqzyl0kc91LGk=",
         "parsed_procs": {
           "procedure_1.csv": [
             {
-              "__parsed_extra": [
-                " 5 = neutral",
-                " 9 = very pleasant),1|2|3|4|5|6|7|8|9,How excited/jittery does the image make you feel (1 = very bored",
-                " 5 = neutral",
-                " 9 = very excited),1|2|3|4|5|6|7|8|9,,,300,400,"
-              ],
-              "item,trial type,max time,text,shuffle 1,btn_width,instruct_1,responses_1,instruct_2,responses_2,instruct_3,responses_3,cue_height,cue_width,": "2 to 74,rate_image,user,\"<h1>Here's my survey title</h1><br>\n<br>\n<br>\nHello <b>this is in bold</b> <em>this is in italics</em> <br>\n<br>\n<br>\nThanks for participating<br>\n<br>\n<b>now it's in bold</b><br>\n<br>\n<br>\n<u>here's something underlined</u><br>\n<br>\n\",trials,50px,How pleasant is the image (1 = very unpleasant"
-            },
-            {
-              "item,trial type,max time,text,shuffle 1,btn_width,instruct_1,responses_1,instruct_2,responses_2,instruct_3,responses_3,cue_height,cue_width,": ","
+              "item": "2 to 74",
+              "trial type": "rate_image",
+              "max time": "user",
+              "text": "<h1>Here's my survey title</h1><br>\r\n<br>\r\n<br>\r\nHello <b>this is in bold</b> <em>this is in italics</em> <br>\r\n<br>\r\n<br>\r\nThanks for participating<br>\r\n<br>\r\n<b>now it's in bold</b><br>\r\n<br>\r\n<br>\r\n<u>here's something underlined</u><br>\r\n<br>\r\n",
+              "btn_width": "50px",
+              "instruct_1": "How pleasant is the image (1 = very unpleasant; 5 = neutral; 9 = very pleasant)",
+              "responses_1": "1|2|3|4|5|6|7|8|9",
+              "instruct_2": "How excited/jittery does the image make you feel (1 = very bored; 5 = neutral; 9 = very excited)",
+              "responses_2": "1|2|3|4|5|6|7|8|9",
+              "instruct_3": "",
+              "responses_3": "",
+              "cue_height": "300",
+              "cue_width": "400",
+              "": "",
+              "shuffle 1": "trials"
             }
           ]
         },
@@ -514,10 +519,10 @@
           }
         ],
         "procs_csv": {
-          "procedure_1.csv": "item,trial type,max time,text,Shuffle 1,btn_width,instruct_1,responses_1,instruct_2,responses_2,instruct_3,responses_3,cue_height,cue_width,\r\n2 to 74,rate_image,user,\"<h1>Here's my survey title</h1><br>\n<br>\n<br>\nHello <b>this is in bold</b> <em>this is in italics</em> <br>\n<br>\n<br>\nThanks for participating<br>\n<br>\n<b>now it's in bold</b><br>\n<br>\n<br>\n<u>here's something underlined</u><br>\n<br>\n\",trials,50px,How pleasant is the image (1 = very unpleasant; 5 = neutral; 9 = very pleasant),1|2|3|4|5|6|7|8|9,How excited/jittery does the image make you feel (1 = very bored; 5 = neutral; 9 = very excited),1|2|3|4|5|6|7|8|9,,,300,400,\r\n,,,,,,,,,,,,,,"
+          "procedure_1.csv": "item,trial type,max time,text,Shuffle 1,btn_width,instruct_1,responses_1,instruct_2,responses_2,instruct_3,responses_3,cue_height,cue_width,\r\n2 to 74,rate_image,user,\"<h1>Here's my survey title</h1><br>\r\n<br>\r\n<br>\r\nHello <b>this is in bold</b> <em>this is in italics</em> <br>\r\n<br>\r\n<br>\r\nThanks for participating<br>\r\n<br>\r\n<b>now it's in bold</b><br>\r\n<br>\r\n<br>\r\n<u>here's something underlined</u><br>\r\n<br>\r\n\",trials,50px,How pleasant is the image (1 = very unpleasant; 5 = neutral; 9 = very pleasant),1|2|3|4|5|6|7|8|9,How excited/jittery does the image make you feel (1 = very bored; 5 = neutral; 9 = very excited),1|2|3|4|5|6|7|8|9,,,300,400,\r\n,"
         },
         "stims_csv": {
-          "stimuli_1.csv": "cue,image_type,\r\nhttps://dl.dropbox.com/s/zcpro7lzj4lm7zu/GAAP1_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/yebc6bcwvrpfysb/gaap3_milk_bottle_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/wlqzxs00dhbkrpu/gaap4_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/6smk92qicn0kbq9/GAAP5_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/detameb7c04vgtq/gaap6_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/lhjtse3jvk1l9cf/gaap8_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/5jxkloa3o6yoobk/gaap9_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/phhjxy5jk0xftg6/GAAP10_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/tnnt60axkre1l0p/GAAP15_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/wgct2s8vy90ksbc/GAAP16_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/2vgqjebo8wn2iz1/GAAP18_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/13591yhad9p8u3l/GAAP20_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/fo15xg9he9g03jf/GAAP21_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/dobgeap4gojoo2f/gaap24_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/f621i04mrin3qw7/gaap28_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/fczdvo8xpj8ighn/gaap29_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/mynfumr0niqagog/GAAP30_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/fe1sebmo4x31plz/GAAP35_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/hl4gvv09crrqmwi/gaap46_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/oaulnw2se2vr0iv/gaap51_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/1m10pi95bk6max5/GAAP52_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/eetc3llxowb7uj9/GAAP54_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/qklk5mrynyaiz0z/gaap1_fries_ar.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/yebc6bcwvrpfysb/gaap3_milk_bottle_ar.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/vb47onmepqaqkfj/gaap4_coffee_ar.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/k2xmffgp0toesxg/gaap8_craft_ar.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/saqw2qhrt1z2zoo/GAAP10_waterbottles_AR.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/qly7s11l50jzat0/gaap18_salad_ar.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/wnotdan4hco12sn/gaap21_party_popper_ar.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/3esdt3ebe0poxpx/GAAP24_bubbles_AR.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/jli04qfoqy8y28l/GAAP35_paint_AR.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/ou9mdwxawqf4vwx/gaap46_hotwheels_ar.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/fo3rnus3ix7h9oe/GAAP51_paddle_AR.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/s98nvglc0on5bg8/blackjack_casino.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/lfw7xknvgkciu9k/greyhounds.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/tmtop9em6i5fjrk/horse_racing_1.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/nic16jgd2jl31zp/horse_racing_2.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/vo4s6okh28vy9qd/lottery_ticket.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/d7p6opi7k60k8t3/lotto_balls.png?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/5kf1y55uusaysh4/poker_chips_cards.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/bm1bpx809m5fkec/poker_chips.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/lnbhc965wkrh5ad/roulette_table.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/qfp2d60iaw477ln/roulette_wheel.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/snj0w6emu1k1u1u/tvliveodds.png?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/5a1ewk26ak6r7n3/bettingagencylogo_1.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/v9l4paw82a9etv4/bettingagencylogo_2.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/aot03jxen8s96hs/scratchie_2.gif?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/23q4nreq8xuwen3/tabticket.gif?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/nx90u94wdfefg8y/scratchie_1.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/kdtjudvcofudqja/pokies_1.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/vdhqwisx9xjqqze/pokies_2.png?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/145321m6ewsrzlz/pokies_3.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/cirydak4wdn7dna/cards.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/rfcx5jt2zwzntdk/blackjacks_course.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/mlcxm1oe95ktqv1/wolves.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/8hgysyk124lv0vr/horses_stable.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/umwnm79kqf89r8z/horses%20running.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/sgmaigzr2vzy4j6/bus-timetable.gif?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/ev8sazdi1s4dncu/cricket_balls.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/wbkkssro9yg6us5/notebooks%20and%20pencils.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/knif2lhsw7okbwz/batteries.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/oat33xo0va59pj6/football%20pitch.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/f5an1h6wvtpea9r/ship%20steering%20wheel.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/dg0yxiomd1yrn3s/weather.png?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/jv61ox8qpyka9xb/ukraine%20flag.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/sxghfay3zahjhzo/black_blue.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/d43m5nk1dfv1crq/chalkboard.jpeg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/oyrfen0mle66n2w/notebook%202.jpeg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/pdo9yz75py389bn/butterfly.png?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/oabxaeuaqhqtiyr/supermarket%20shelf.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/iubny4c9beoukpy/drinks.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/e3hvqpyjp0an7zl/arcade.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/ybyyabxpkzn1bze/notebooks.jpg?dl=0,gambling_matched,\r\n,,"
+          "stimuli_1.csv": "cue,image_type,\r\nhttps://dl.dropbox.com/s/zcpro7lzj4lm7zu/GAAP1_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/yebc6bcwvrpfysb/gaap3_milk_bottle_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/wlqzxs00dhbkrpu/gaap4_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/6smk92qicn0kbq9/GAAP5_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/detameb7c04vgtq/gaap6_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/lhjtse3jvk1l9cf/gaap8_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/5jxkloa3o6yoobk/gaap9_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/phhjxy5jk0xftg6/GAAP10_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/tnnt60axkre1l0p/GAAP15_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/wgct2s8vy90ksbc/GAAP16_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/2vgqjebo8wn2iz1/GAAP18_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/13591yhad9p8u3l/GAAP20_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/fo15xg9he9g03jf/GAAP21_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/dobgeap4gojoo2f/gaap24_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/f621i04mrin3qw7/gaap28_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/fczdvo8xpj8ighn/gaap29_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/mynfumr0niqagog/GAAP30_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/fe1sebmo4x31plz/GAAP35_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/hl4gvv09crrqmwi/gaap46_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/oaulnw2se2vr0iv/gaap51_ar.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/1m10pi95bk6max5/GAAP52_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/eetc3llxowb7uj9/GAAP54_AR.png?dl=0,gaap,\r\nhttps://dl.dropbox.com/s/qklk5mrynyaiz0z/gaap1_fries_ar.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/yebc6bcwvrpfysb/gaap3_milk_bottle_ar.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/vb47onmepqaqkfj/gaap4_coffee_ar.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/k2xmffgp0toesxg/gaap8_craft_ar.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/saqw2qhrt1z2zoo/GAAP10_waterbottles_AR.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/qly7s11l50jzat0/gaap18_salad_ar.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/wnotdan4hco12sn/gaap21_party_popper_ar.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/3esdt3ebe0poxpx/GAAP24_bubbles_AR.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/jli04qfoqy8y28l/GAAP35_paint_AR.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/ou9mdwxawqf4vwx/gaap46_hotwheels_ar.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/fo3rnus3ix7h9oe/GAAP51_paddle_AR.png?dl=0,gaap_matched,\r\nhttps://dl.dropbox.com/s/s98nvglc0on5bg8/blackjack_casino.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/lfw7xknvgkciu9k/greyhounds.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/tmtop9em6i5fjrk/horse_racing_1.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/nic16jgd2jl31zp/horse_racing_2.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/vo4s6okh28vy9qd/lottery_ticket.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/d7p6opi7k60k8t3/lotto_balls.png?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/5kf1y55uusaysh4/poker_chips_cards.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/bm1bpx809m5fkec/poker_chips.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/lnbhc965wkrh5ad/roulette_table.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/qfp2d60iaw477ln/roulette_wheel.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/snj0w6emu1k1u1u/tvliveodds.png?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/5a1ewk26ak6r7n3/bettingagencylogo_1.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/v9l4paw82a9etv4/bettingagencylogo_2.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/aot03jxen8s96hs/scratchie_2.gif?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/23q4nreq8xuwen3/tabticket.gif?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/nx90u94wdfefg8y/scratchie_1.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/kdtjudvcofudqja/pokies_1.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/vdhqwisx9xjqqze/pokies_2.png?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/145321m6ewsrzlz/pokies_3.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/cirydak4wdn7dna/cards.jpg?dl=0,gambling,\r\nhttps://dl.dropbox.com/s/rfcx5jt2zwzntdk/blackjacks_course.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/mlcxm1oe95ktqv1/wolves.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/8hgysyk124lv0vr/horses_stable.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/umwnm79kqf89r8z/horses%20running.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/sgmaigzr2vzy4j6/bus-timetable.gif?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/ev8sazdi1s4dncu/cricket_balls.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/wbkkssro9yg6us5/notebooks%20and%20pencils.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/knif2lhsw7okbwz/batteries.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/oat33xo0va59pj6/football%20pitch.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/f5an1h6wvtpea9r/ship%20steering%20wheel.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/dg0yxiomd1yrn3s/weather.png?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/jv61ox8qpyka9xb/ukraine%20flag.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/sxghfay3zahjhzo/black_blue.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/d43m5nk1dfv1crq/chalkboard.jpeg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/oyrfen0mle66n2w/notebook%202.jpeg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/pdo9yz75py389bn/butterfly.png?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/oabxaeuaqhqtiyr/supermarket%20shelf.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/iubny4c9beoukpy/drinks.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/e3hvqpyjp0an7zl/arcade.jpg?dl=0,gambling_matched,\r\nhttps://dl.dropbox.com/s/ybyyabxpkzn1bze/notebooks.jpg?dl=0,gambling_matched,\r\n,"
         },
         "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,random,,,5,\r\n,,,,,,,,,,"
       },
@@ -31236,7 +31241,7 @@
             ],
             [
               "Instructions1",
-              "<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to you:</span></span>",
+              "<span style='font-size:26px'><span style='color:#3f78d5'>These questions contain statements about autism. \n<br>\n<br>\nWe would like you to tell us what you think most other people believe. Please indicate how\nstrongly you agree or disagree with the following statements</span></span>\n",
               "Instruct",
               "",
               "",
@@ -31246,7 +31251,7 @@
               ""
             ],
             [
-              "ASS1",
+              "ASS1_soc",
               "Most people believe that people with autism could snap out of it if they wanted.",
               "likert",
               "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -31257,7 +31262,7 @@
               ""
             ],
             [
-              "ASS2",
+              "ASS2_soc",
               "Most people believe that autism is a sign of personal weakness.",
               "likert",
               "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -31268,7 +31273,7 @@
               ""
             ],
             [
-              "ASS3",
+              "ASS3_soc",
               "Most people believe that autism is not a real medicall illness.",
               "likert",
               "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -31279,7 +31284,7 @@
               ""
             ],
             [
-              "ASS4",
+              "ASS4_soc",
               "Most people believe that people with autism are dangerous.",
               "likert",
               "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -31290,7 +31295,7 @@
               null
             ],
             [
-              "ASS5",
+              "ASS5_soc",
               "Most people believe that it is best to avoid people with autism so that you don't become autistic yourself.",
               "likert",
               "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -31301,7 +31306,7 @@
               null
             ],
             [
-              "ASS6",
+              "ASS6_soc",
               "Most people believe that people with autism are unpredictable.",
               "likert",
               "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -31312,7 +31317,7 @@
               null
             ],
             [
-              "ASS7",
+              "ASS7_soc",
               "If they had autism, most people would not tell anyone.",
               "likert",
               "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -31323,7 +31328,7 @@
               null
             ],
             [
-              "ASS8",
+              "ASS8_soc",
               "Most people would not employ someone they knew had been autistic.",
               "likert",
               "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -31334,7 +31339,7 @@
               null
             ],
             [
-              "ASS9",
+              "ASS9_soc",
               "Most people would not vote for a politician they knew had been autistic.",
               "likert",
               "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -31399,7 +31404,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31414,7 +31419,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31429,7 +31434,7 @@
               "1",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31444,7 +31449,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31459,7 +31464,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31474,7 +31479,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31489,7 +31494,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31504,7 +31509,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31519,7 +31524,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31534,7 +31539,7 @@
               "1",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31549,7 +31554,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31564,7 +31569,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31579,7 +31584,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31594,7 +31599,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31609,7 +31614,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31624,7 +31629,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31639,7 +31644,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31654,7 +31659,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31669,7 +31674,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31684,7 +31689,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31699,7 +31704,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31714,7 +31719,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31729,7 +31734,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31744,7 +31749,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31759,7 +31764,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31774,7 +31779,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31789,7 +31794,7 @@
               "1",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31804,7 +31809,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31819,7 +31824,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31834,7 +31839,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31849,7 +31854,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31864,7 +31869,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31879,7 +31884,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31894,7 +31899,7 @@
               "1",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31909,7 +31914,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31924,7 +31929,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31939,7 +31944,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31954,7 +31959,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31969,7 +31974,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31984,7 +31989,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -31999,7 +32004,7 @@
               "1",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -32014,7 +32019,7 @@
               "1",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -32029,7 +32034,7 @@
               "1",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -32044,7 +32049,7 @@
               "",
               "1",
               "No",
-              "100px",
+              "250px",
               null
             ],
             [
@@ -32365,7 +32370,7 @@
               null
             ],
             [
-              "DSSQ1",
+              "DSSQ1_pers",
               "People with depression could snap out of it if they wanted.",
               "likert",
               "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
@@ -32376,7 +32381,7 @@
               null
             ],
             [
-              "DSSQ2",
+              "DSSQ2_pers",
               "Depression is a sign of personal weakness.",
               "likert",
               "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
@@ -32387,7 +32392,7 @@
               null
             ],
             [
-              "DSSQ3",
+              "DSSQ3_pers",
               "Depression is not a real medical illness.",
               "likert",
               "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
@@ -32398,7 +32403,7 @@
               null
             ],
             [
-              "DSSQ4",
+              "DSSQ4_pers",
               "People with depression are dangerous.",
               "likert",
               "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
@@ -32409,7 +32414,7 @@
               null
             ],
             [
-              "DSSQ5",
+              "DSSQ5_pers",
               "It is best to avoid people with depression so you don’t become depressed yourself.",
               "likert",
               "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
@@ -32420,7 +32425,7 @@
               null
             ],
             [
-              "DSSQ6",
+              "DSSQ6_pers",
               "People with depression are unpredictable.",
               "likert",
               "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
@@ -32431,7 +32436,7 @@
               null
             ],
             [
-              "DSSQ7",
+              "DSSQ7_pers",
               "If I had depression I would not tell anyone.",
               "likert",
               "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
@@ -32442,7 +32447,7 @@
               null
             ],
             [
-              "DSSQ8",
+              "DSSQ8_pers",
               "I would not employ someone if I knew they had been depressed.",
               "likert",
               "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
@@ -32453,7 +32458,128 @@
               null
             ],
             [
-              "DSSQ9",
+              "DSSQ9_pers",
+              "I would not vote for a politician if I knew they had been depressed.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "Instructions1",
+              "<span style='font-size:26px'><span style='color:#3f78d5'>These questions contain statements about depression. Please indicate how strongly <u><b>you think your parent</b></u> agrees or disagrees with each statement. There's no need to ask them to complete it, just try to estimate how they would repond to each item:</span></span>",
+              "Instruct",
+              "",
+              "",
+              "",
+              "",
+              "",
+              null
+            ],
+            [
+              "gass_soc_parent",
+              "Please answer the following questions on behalf of one of your parents. Which parent will this be based on? Please write \"Mother\" or \"Father\" if possible, or explain if the person you have chosen is a step-parent or other relative.",
+              "text",
+              "",
+              "",
+              "",
+              "No",
+              "",
+              null
+            ],
+            [
+              "DSSQ1_pers_parent",
+              "People with depression could snap out of it if they wanted.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ2_pers_parent",
+              "Depression is a sign of personal weakness.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ3_pers_parent",
+              "Depression is not a real medical illness.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ4_pers_parent",
+              "People with depression are dangerous.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ5_pers_parent",
+              "It is best to avoid people with depression so you don’t become depressed yourself.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ6_pers_parent",
+              "People with depression are unpredictable.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ7_pers_parent",
+              "If I had depression I would not tell anyone.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ8_pers_parent",
+              "I would not employ someone if I knew they had been depressed.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ9_pers_parent",
               "I would not vote for a politician if I knew they had been depressed.",
               "likert",
               "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
@@ -36153,7 +36279,7 @@
             ],
             [
               "Instructions1",
-              "<span style='font-size:26px'><span style='color:#3f78d5'>These questions contain statements about autism. Please indicate how strongly you personally agree or disagree with each statement.</span></span>\n",
+              "<span style='font-size:26px'><span style='color:#3f78d5'>These questions contain statements about autism. \n<br>\n<br>\nWe would like you to tell us what you think most other people believe. Please indicate how\nstrongly you agree or disagree with the following statements</span></span>\n",
               "Instruct",
               "",
               "",
@@ -36704,7 +36830,7 @@
             ],
             [
               "Instructions1",
-              "<span style='color:#006699'><span style='font-size:20px'>How strongly do you personally agree with each statement?</span></span>",
+              "<span style='color:#006699'><span style='font-size:20px'>These questions contain statements about autism.<br>\n<br>\n\nHow strongly do you personally agree with each statement?</span></span><br>\n<br>",
               "Instruct",
               "",
               "",
@@ -36886,69 +37012,6 @@
               "0",
               "instruct",
               "user",
-              "<h2>This experiment works best (and fastest) in <span class=\"text-danger\">Google Chrome</span>. If you are not already on Google Chrome please copy the url in your browser into Google Chrome.</h2>",
-              "off",
-              "1",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              "0",
-              "setup",
-              "user",
-              "",
-              "off",
-              "1",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              "0",
-              "survey",
-              "user",
-              "",
-              "off",
-              "1",
-              "borcsok_ethics.csv",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              "0",
-              "instruct",
-              "user",
               "<span style='font-size:20px'>Thank you for participating - you are about to start an eye-tracking task. <br><br>\n In this task we will ask you to look at some dots to train the camera to know where your eyes are looking. <br><br>\n After this we will present you with pairs of images. You can look wherever you like on the screen.\n </span>",
               "off",
               "1",
@@ -37025,48 +37088,6 @@
               "",
               "",
               "",
-              "",
-              "",
-              ""
-            ],
-            [
-              "0",
-              "instruct",
-              "user",
-              "Thank you for completing the previous eye-tracking task, we're about to ask you to rate some images.",
-              "off",
-              "1",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              "2 to 61",
-              "rate_image",
-              "user",
-              "",
-              "rate_random",
-              "1",
-              "",
-              "50px",
-              "How pleasant is the image (1 = very unpleasant; 5 = neutral; 9 = very pleasant)",
-              "1|2|3|4|5|6|7|8|9",
-              "How excited/jittery does the image make you feel (1 = very bored; 5 = neutral; 9 = very excited)",
-              "1|2|3|4|5|6|7|8|9",
-              "",
-              "",
-              "300",
-              "400",
               "",
               "",
               ""
@@ -39253,69 +39274,6 @@
               "item": "0",
               "trial type": "instruct",
               "max time": "user",
-              "text": "<h2>This experiment works best (and fastest) in <span class=\"text-danger\">Google Chrome</span>. If you are not already on Google Chrome please copy the url in your browser into Google Chrome.</h2>",
-              "shuffle 1": "off"
-            },
-            {
-              "weight": "1",
-              "survey": "",
-              "btn_width": "",
-              "instruct_1": "",
-              "responses_1": "",
-              "instruct_2": "",
-              "responses_2": "",
-              "instruct_3": "",
-              "responses_3": "",
-              "cue_height": "",
-              "cue_width": "",
-              "n_trials": "",
-              "fb_time": "",
-              "": "",
-              "item": "0",
-              "trial type": "setup",
-              "max time": "user",
-              "text": "",
-              "shuffle 1": "off"
-            },
-            {
-              "weight": "1",
-              "survey": "borcsok_ethics.csv",
-              "btn_width": "",
-              "instruct_1": "",
-              "responses_1": "",
-              "instruct_2": "",
-              "responses_2": "",
-              "instruct_3": "",
-              "responses_3": "",
-              "cue_height": "",
-              "cue_width": "",
-              "n_trials": "",
-              "fb_time": "",
-              "": "",
-              "item": "0",
-              "trial type": "survey",
-              "max time": "user",
-              "text": "",
-              "shuffle 1": "off"
-            },
-            {
-              "weight": "1",
-              "survey": "",
-              "btn_width": "",
-              "instruct_1": "",
-              "responses_1": "",
-              "instruct_2": "",
-              "responses_2": "",
-              "instruct_3": "",
-              "responses_3": "",
-              "cue_height": "",
-              "cue_width": "",
-              "n_trials": "",
-              "fb_time": "",
-              "": "",
-              "item": "0",
-              "trial type": "instruct",
-              "max time": "user",
               "text": "<span style='font-size:20px'>Thank you for participating - you are about to start an eye-tracking task. <br><br>\n In this task we will ask you to look at some dots to train the camera to know where your eyes are looking. <br><br>\n After this we will present you with pairs of images. You can look wherever you like on the screen.\n </span>",
               "shuffle 1": "off"
             },
@@ -39381,48 +39339,6 @@
               "max time": "user",
               "text": "Please look at the cross.<br />A pair of images will follow. You are free <br />to look at either image.<br /><br />Do not move your head, <br />only use your eyes.",
               "shuffle 1": "off"
-            },
-            {
-              "weight": "1",
-              "survey": "",
-              "btn_width": "",
-              "instruct_1": "",
-              "responses_1": "",
-              "instruct_2": "",
-              "responses_2": "",
-              "instruct_3": "",
-              "responses_3": "",
-              "cue_height": "",
-              "cue_width": "",
-              "n_trials": "",
-              "fb_time": "",
-              "": "",
-              "item": "0",
-              "trial type": "instruct",
-              "max time": "user",
-              "text": "Thank you for completing the previous eye-tracking task, we're about to ask you to rate some images.",
-              "shuffle 1": "off"
-            },
-            {
-              "weight": "1",
-              "survey": "",
-              "btn_width": "50px",
-              "instruct_1": "How pleasant is the image (1 = very unpleasant; 5 = neutral; 9 = very pleasant)",
-              "responses_1": "1|2|3|4|5|6|7|8|9",
-              "instruct_2": "How excited/jittery does the image make you feel (1 = very bored; 5 = neutral; 9 = very excited)",
-              "responses_2": "1|2|3|4|5|6|7|8|9",
-              "instruct_3": "",
-              "responses_3": "",
-              "cue_height": "300",
-              "cue_width": "400",
-              "n_trials": "",
-              "fb_time": "",
-              "": "",
-              "item": "2 to 61",
-              "trial type": "rate_image",
-              "max time": "user",
-              "text": "",
-              "shuffle 1": "rate_random"
             }
           ]
         },
@@ -39559,7 +39475,7 @@
           "open-collector.org": "https://open-collector.org/StoreData.php"
         },
         "procs_csv": {
-          "procedure_1.csv": "Item,Trial Type,Max Time,Text,Shuffle 1,weight,survey,btn_width,instruct_1,responses_1,instruct_2,responses_2,instruct_3,responses_3,cue_height,cue_width,n_trials,fb_time,\r\n0,instruct,user,\"<h2>This experiment works best (and fastest) in <span class=\"\"text-danger\"\">Google Chrome</span>. If you are not already on Google Chrome please copy the url in your browser into Google Chrome.</h2>\",off,1,,,,,,,,,,,,,\r\n0,setup,user,,off,1,,,,,,,,,,,,,\r\n0,survey,user,,off,1,borcsok_ethics.csv,,,,,,,,,,,,\r\n0,instruct,user,\"<span style='font-size:20px'>Thank you for participating - you are about to start an eye-tracking task. <br><br>\n In this task we will ask you to look at some dots to train the camera to know where your eyes are looking. <br><br>\n After this we will present you with pairs of images. You can look wherever you like on the screen.\n </span>\",off,1,,,,,,,,,,,,,\r\n2,webgazer,user,\"Please look at the cross.<br />A pair of images will follow. You are free <br />to look at either image.<br /><br />Do not move your head, <br />only use your eyes.\",off,1,,,,,,,,,,,,,\r\n0,instruct,user,Please take a break before starting the second half of the eyetracking task.,off,1,,,,,,,,,,,,,\r\n3,webgazer,user,\"Please look at the cross.<br />A pair of images will follow. You are free <br />to look at either image.<br /><br />Do not move your head, <br />only use your eyes.\",off,1,,,,,,,,,,,,,\r\n0,instruct,user,\"Thank you for completing the previous eye-tracking task, we're about to ask you to rate some images.\",off,1,,,,,,,,,,,,,\r\n2 to 61,rate_image,user,,rate_random,1,,50px,How pleasant is the image (1 = very unpleasant; 5 = neutral; 9 = very pleasant),1|2|3|4|5|6|7|8|9,How excited/jittery does the image make you feel (1 = very bored; 5 = neutral; 9 = very excited),1|2|3|4|5|6|7|8|9,,,300,400,,,\r\n,,,,,,,,,,,,,,,,,,"
+          "procedure_1.csv": "Item,Trial Type,Max Time,Text,Shuffle 1,weight,survey,btn_width,instruct_1,responses_1,instruct_2,responses_2,instruct_3,responses_3,cue_height,cue_width,n_trials,fb_time,\r\n0,instruct,user,\"<span style='font-size:20px'>Thank you for participating - you are about to start an eye-tracking task. <br><br>\n In this task we will ask you to look at some dots to train the camera to know where your eyes are looking. <br><br>\n After this we will present you with pairs of images. You can look wherever you like on the screen.\n </span>\",off,1,,,,,,,,,,,,,\r\n2,webgazer,user,\"Please look at the cross.<br />A pair of images will follow. You are free <br />to look at either image.<br /><br />Do not move your head, <br />only use your eyes.\",off,1,,,,,,,,,,,,,\r\n0,instruct,user,Please take a break before starting the second half of the eyetracking task.,off,1,,,,,,,,,,,,,\r\n3,webgazer,user,\"Please look at the cross.<br />A pair of images will follow. You are free <br />to look at either image.<br /><br />Do not move your head, <br />only use your eyes.\",off,1,,,,,,,,,,,,,\r\n,,,,,,,,,,,,,,,,,,"
         },
         "stims_csv": {
           "stimuli_1.csv": "calibrations,freeview_image_file,design_type,calibration_skip,image_height,image_width,save_script,stim_duration,trials,left_side,trial_order,left_position,right_position,min_width,min_height,skip_instruct,\r\n13,gaze_pairs1.csv,freeview,no,300px,400px,https://script.google.com/macros/s/AKfycbz8s-Ty59dFHWc_Cl2JMcB8x3rCyC8bz6QErXICOTEE1uv2bl0/exec,5000,20,counterbalance,random,-300px,300px,1100px,400px,off,\r\n13,gaze_pairs2.csv,freeview,no,300px,400px,https://script.google.com/macros/s/AKfycbz8s-Ty59dFHWc_Cl2JMcB8x3rCyC8bz6QErXICOTEE1uv2bl0/exec,5000,20,counterbalance,random,-300px,300px,1100px,400px,off,\r\n,,,,,,,,,,,,,,,,",
@@ -39701,7 +39617,23 @@
         "stims_csv": {
           "stimuli_1.csv": "cue,answer,\r\nA,Apple,\r\nB,Banana,\r\n,,"
         },
-        "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\n,,,,,,,,,,,"
+        "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\n,,,,,,,,,,,",
+        "conditions": [
+          {
+            "name": "condition_1",
+            "notes": "You can put more detailed notes in this field",
+            "stimuli": "stimuli_1.csv",
+            "procedure": "procedure_1.csv",
+            "fullscreen": "off",
+            "welcome": "",
+            "participant_id": "on",
+            "end_message": "",
+            "start_message": "",
+            "buffer": "5",
+            "scripts": "",
+            "": ""
+          }
+        ]
       },
       "2020_dep_soc_stig": {
         "all_procs": {
@@ -39941,15 +39873,136 @@
               ""
             ],
             [
-              "",
-              "",
-              "",
+              "Instructions1",
+              "<span style='font-size:26px'><span style='color:#3f78d5'>These questions contain statements about depression. Please indicate how strongly <u><b>you think your parent</b></u> agrees or disagrees with each statement. There's no need to ask them to complete it, just try to estimate how they would repond to each item:</span></span>",
+              "Instruct",
               "",
               "",
               "",
               "",
               "",
               ""
+            ],
+            [
+              "gass_soc_parent",
+              "Please answer the following questions on behalf of one of your parents. Which parent will this be based on? Please write \"Mother\" or \"Father\" if possible, or explain if the person you have chosen is a step-parent or other relative.",
+              "text",
+              "",
+              "",
+              "",
+              "No",
+              "",
+              null
+            ],
+            [
+              "DSSQ1_soc_parent",
+              "Most people believe that people with depression could snap out of it if they wanted.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ2_soc_parent",
+              "Most people believe that depression is a sign of personal weakness.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ3_soc_parent",
+              "Most people believe that depression is not a medical illness.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ4_soc_parent",
+              "Most people believe that people with depression are dangerous.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ5_soc_parent",
+              "Most people believe that it is best to avoid people with depression so that you don’t become depressed yourself.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ6_soc_parent",
+              "Most people believe that people with depression are unpredictable.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ7_soc_parent",
+              "If they had depression, most people would not tell anyone.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ8_soc_parent",
+              "Most people would not employ someone they knew had been depressed.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ9_soc_parent",
+              "Most people would not vote for a politician they knew had been depressed.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
             ]
           ]
         },
@@ -40214,6 +40267,127 @@
             ],
             [
               "DSSQ9_pers",
+              "I would not vote for a politician if I knew they had been depressed.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "Instructions1",
+              "<span style='font-size:26px'><span style='color:#3f78d5'>These questions contain statements about depression. Please indicate how strongly <u><b>you think your parent</b></u> agrees or disagrees with each statement. There's no need to ask them to complete it, just try to estimate how they would repond to each item:</span></span>",
+              "Instruct",
+              "",
+              "",
+              "",
+              "",
+              "",
+              null
+            ],
+            [
+              "gass_soc_parent",
+              "Please answer the following questions on behalf of one of your parents. Which parent will this be based on? Please write \"Mother\" or \"Father\" if possible, or explain if the person you have chosen is a step-parent or other relative.",
+              "text",
+              "",
+              "",
+              "",
+              "No",
+              "",
+              null
+            ],
+            [
+              "DSSQ1_pers_parent",
+              "People with depression could snap out of it if they wanted.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ2_pers_parent",
+              "Depression is a sign of personal weakness.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ3_pers_parent",
+              "Depression is not a real medical illness.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ4_pers_parent",
+              "People with depression are dangerous.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ5_pers_parent",
+              "It is best to avoid people with depression so you don’t become depressed yourself.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ6_pers_parent",
+              "People with depression are unpredictable.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ7_pers_parent",
+              "If I had depression I would not tell anyone.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ8_pers_parent",
+              "I would not employ someone if I knew they had been depressed.",
+              "likert",
+              "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+              "0|1|2|3|4",
+              "1",
+              "No",
+              "100px",
+              null
+            ],
+            [
+              "DSSQ9_pers_parent",
               "I would not vote for a politician if I knew they had been depressed.",
               "likert",
               "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
@@ -40960,7 +41134,7 @@
               "text",
               "Shuffle 1",
               "survey",
-              null
+              ""
             ],
             [
               "2",
@@ -40969,16 +41143,16 @@
               "This is the start of a new experiment.",
               "off",
               "anx_stigma_societal.csv",
-              null
+              ""
             ],
             [
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
             ]
           ]
         },
@@ -40995,7 +41169,7 @@
             "start_message",
             "buffer",
             "scripts",
-            null
+            ""
           ],
           [
             "condition_1",
@@ -41009,21 +41183,21 @@
             "",
             "5",
             "",
-            null
+            ""
           ],
           [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ]
         ],
         "all_stims": {
@@ -41031,22 +41205,22 @@
             [
               "cue",
               "answer",
-              null
+              ""
             ],
             [
               "A",
               "Apple",
-              null
+              ""
             ],
             [
               "B",
               "Banana",
-              null
+              ""
             ],
             [
-              null,
-              null,
-              null
+              "",
+              "",
+              ""
             ]
           ]
         },
@@ -41079,7 +41253,7 @@
             ],
             [
               "Instructions1",
-              "<span style='font-size:26px'><span style='color:#3f78d5'>The following statements are about anxiety disorders. Please indicate how strongly <u><b>you personally</b></u> agree or disagree with each statement. </span></span>",
+              "<span style='font-size:26px'><span style='color:#3f78d5'>The following statements are about anxiety disorders. <br>\n<br>\nWe would like you to tell us what you think most other people believe. Please indicate how strongly <u><b>you personally</b></u> agree or disagree with each statement. </span></span><br>",
               "Instruct",
               "",
               "",
@@ -41381,7 +41555,7 @@
               "max time",
               "text",
               "Shuffle 1",
-              null
+              ""
             ],
             [
               "2",
@@ -41389,15 +41563,15 @@
               "user",
               "This is the start of a new experiment.",
               "off",
-              null
+              ""
             ],
             [
-              null,
-              null,
-              null,
-              null,
-              null,
-              null
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
             ]
           ]
         },
@@ -41414,7 +41588,7 @@
             "start_message",
             "buffer",
             "scripts",
-            null
+            ""
           ],
           [
             "condition_1",
@@ -41428,21 +41602,21 @@
             "",
             "5",
             "",
-            null
+            ""
           ],
           [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ]
         ],
         "all_stims": {
@@ -41450,22 +41624,22 @@
             [
               "cue",
               "answer",
-              null
+              ""
             ],
             [
               "A",
               "Apple",
-              null
+              ""
             ],
             [
               "B",
               "Banana",
-              null
+              ""
             ],
             [
-              null,
-              null,
-              null
+              "",
+              "",
+              ""
             ]
           ]
         },
@@ -41493,7 +41667,23 @@
         "stims_csv": {
           "stimuli_1.csv": "cue,answer,\r\nA,Apple,\r\nB,Banana,\r\n,,"
         },
-        "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\n,,,,,,,,,,,"
+        "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\n,,,,,,,,,,,",
+        "conditions": [
+          {
+            "name": "condition_1",
+            "notes": "You can put more detailed notes in this field",
+            "stimuli": "stimuli_1.csv",
+            "procedure": "procedure_1.csv",
+            "fullscreen": "off",
+            "welcome": "",
+            "participant_id": "on",
+            "end_message": "",
+            "start_message": "",
+            "buffer": "5",
+            "scripts": "",
+            "": ""
+          }
+        ]
       },
       "2020_rate_images": {
         "all_procs": {
@@ -42032,7 +42222,7 @@
               "text",
               "Shuffle 1",
               "survey",
-              null
+              ""
             ],
             [
               "2",
@@ -42041,16 +42231,16 @@
               "This is the start of a new experiment.",
               "off",
               "phq_9.csv",
-              null
+              ""
             ],
             [
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
             ]
           ]
         },
@@ -42067,7 +42257,7 @@
             "start_message",
             "buffer",
             "scripts",
-            null
+            ""
           ],
           [
             "condition_1",
@@ -42081,21 +42271,21 @@
             "",
             "5",
             "",
-            null
+            ""
           ],
           [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ]
         ],
         "all_stims": {
@@ -42103,22 +42293,22 @@
             [
               "cue",
               "answer",
-              null
+              ""
             ],
             [
               "A",
               "Apple",
-              null
+              ""
             ],
             [
               "B",
               "Banana",
-              null
+              ""
             ],
             [
-              null,
-              null,
-              null
+              "",
+              "",
+              ""
             ]
           ]
         },
@@ -42311,7 +42501,7 @@
               "text",
               "Shuffle 1",
               "survey",
-              null
+              ""
             ],
             [
               "2",
@@ -42320,16 +42510,16 @@
               "This is the start of a new experiment.",
               "off",
               "environment_beliefs.csv",
-              null
+              ""
             ],
             [
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
             ]
           ]
         },
@@ -42346,7 +42536,7 @@
             "start_message",
             "buffer",
             "scripts",
-            null
+            ""
           ],
           [
             "condition_1",
@@ -42360,21 +42550,21 @@
             "",
             "5",
             "",
-            null
+            ""
           ],
           [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ]
         ],
         "all_stims": {
@@ -42382,22 +42572,22 @@
             [
               "cue",
               "answer",
-              null
+              ""
             ],
             [
               "A",
               "Apple",
-              null
+              ""
             ],
             [
               "B",
               "Banana",
-              null
+              ""
             ],
             [
-              null,
-              null,
-              null
+              "",
+              "",
+              ""
             ]
           ]
         },
@@ -42427,7 +42617,8 @@
               "score: env_beh",
               "btn_width",
               "side_text",
-              ""
+              "side_width",
+              null
             ],
             [
               "env_bel1",
@@ -42438,8 +42629,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel2",
@@ -42450,8 +42642,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel3",
@@ -42462,8 +42655,9 @@
               "No",
               "r1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel4",
@@ -42474,8 +42668,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel5",
@@ -42486,8 +42681,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel6",
@@ -42498,8 +42694,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel7",
@@ -42510,8 +42707,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel8",
@@ -42522,8 +42720,9 @@
               "No",
               "r1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel9",
@@ -42534,8 +42733,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel10",
@@ -42546,8 +42746,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel11",
@@ -42558,8 +42759,9 @@
               "No",
               "r1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel12",
@@ -42570,8 +42772,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel13",
@@ -42582,8 +42785,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel14",
@@ -42594,8 +42798,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel15",
@@ -42606,8 +42811,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel16",
@@ -42618,8 +42824,9 @@
               "No",
               "r1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel17",
@@ -42630,8 +42837,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel18",
@@ -42642,8 +42850,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel19",
@@ -42654,8 +42863,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel20",
@@ -42666,8 +42876,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel21",
@@ -42678,8 +42889,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel22",
@@ -42690,8 +42902,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel23",
@@ -42702,8 +42915,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel24",
@@ -42714,8 +42928,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel25",
@@ -42726,8 +42941,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel26",
@@ -42738,8 +42954,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel27",
@@ -42750,8 +42967,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel28",
@@ -42762,8 +42980,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel29",
@@ -42774,8 +42993,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel30",
@@ -42786,8 +43006,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel31",
@@ -42798,8 +43019,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel32",
@@ -42810,8 +43032,9 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
-              ""
+              "Completely Disagree|Completely Agree",
+              "200px",
+              null
             ],
             [
               "env_bel33",
@@ -42822,7 +43045,8 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
+              "Completely Disagree|Completely Agree",
+              "200px",
               null
             ],
             [
@@ -42834,7 +43058,8 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
+              "Completely Disagree|Completely Agree",
+              "200px",
               null
             ],
             [
@@ -42846,7 +43071,8 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
+              "Completely Disagree|Completely Agree",
+              "200px",
               null
             ],
             [
@@ -42858,7 +43084,8 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
+              "Completely Disagree|Completely Agree",
+              "200px",
               null
             ],
             [
@@ -42870,7 +43097,8 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
+              "Completely Disagree|Completely Agree",
+              "200px",
               null
             ],
             [
@@ -42882,7 +43110,8 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
+              "Completely Disagree|Completely Agree",
+              "200px",
               null
             ],
             [
@@ -42894,7 +43123,8 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
+              "Completely Disagree|Completely Agree",
+              "200px",
               null
             ],
             [
@@ -42906,7 +43136,8 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
+              "Completely Disagree|Completely Agree",
+              "200px",
               null
             ],
             [
@@ -42918,7 +43149,8 @@
               "No",
               "1",
               "50px",
-              "Almost never|Almost always",
+              "Completely Disagree|Completely Agree",
+              "200px",
               null
             ],
             [
@@ -42931,9 +43163,11 @@
               "",
               "50px",
               "Not at all|Extremely",
+              null,
               null
             ],
             [
+              null,
               null,
               null,
               null,
@@ -42958,7 +43192,23 @@
           "stimuli_1.csv": "cue,answer,\r\nA,Apple,\r\nB,Banana,\r\n,,"
         },
         "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\n,,,,,,,,,,,",
-        "mods": {}
+        "mods": {},
+        "conditions": [
+          {
+            "name": "condition_1",
+            "notes": "You can put more detailed notes in this field",
+            "stimuli": "stimuli_1.csv",
+            "procedure": "procedure_1.csv",
+            "fullscreen": "off",
+            "welcome": "",
+            "participant_id": "on",
+            "end_message": "",
+            "start_message": "",
+            "buffer": "5",
+            "scripts": "",
+            "": ""
+          }
+        ]
       },
       "2020_env_beh": {
         "all_procs": {
@@ -42970,7 +43220,7 @@
               "text",
               "Shuffle 1",
               "survey",
-              null
+              ""
             ],
             [
               "2",
@@ -42979,16 +43229,16 @@
               "This is the start of a new experiment.",
               "off",
               "environment_behaviours.csv",
-              null
+              ""
             ],
             [
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
             ]
           ]
         },
@@ -43005,7 +43255,7 @@
             "start_message",
             "buffer",
             "scripts",
-            null
+            ""
           ],
           [
             "condition_1",
@@ -43019,21 +43269,21 @@
             "",
             "5",
             "",
-            null
+            ""
           ],
           [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ]
         ],
         "all_stims": {
@@ -43041,22 +43291,22 @@
             [
               "cue",
               "answer",
-              null
+              ""
             ],
             [
               "A",
               "Apple",
-              null
+              ""
             ],
             [
               "B",
               "Banana",
-              null
+              ""
             ],
             [
-              null,
-              null,
-              null
+              "",
+              "",
+              ""
             ]
           ]
         },
@@ -44099,7 +44349,7 @@
               "text",
               "Shuffle 1",
               "survey",
-              null
+              ""
             ],
             [
               "2",
@@ -44108,16 +44358,16 @@
               "This is the start of a new experiment.",
               "off",
               "emo_regulation.csv",
-              null
+              ""
             ],
             [
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
             ]
           ]
         },
@@ -44134,7 +44384,7 @@
             "start_message",
             "buffer",
             "scripts",
-            null
+            ""
           ],
           [
             "condition_1",
@@ -44148,21 +44398,21 @@
             "",
             "5",
             "",
-            null
+            ""
           ],
           [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ]
         ],
         "all_stims": {
@@ -44170,22 +44420,22 @@
             [
               "cue",
               "answer",
-              null
+              ""
             ],
             [
               "A",
               "Apple",
-              null
+              ""
             ],
             [
               "B",
               "Banana",
-              null
+              ""
             ],
             [
-              null,
-              null,
-              null
+              "",
+              "",
+              ""
             ]
           ]
         },
@@ -44402,7 +44652,7 @@
               "text",
               "Shuffle 1",
               "survey",
-              null
+              ""
             ],
             [
               "2",
@@ -44411,16 +44661,16 @@
               "This is the start of a new experiment.",
               "off",
               "panas_2020.csv",
-              null
+              ""
             ],
             [
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
             ]
           ]
         },
@@ -44437,7 +44687,7 @@
             "start_message",
             "buffer",
             "scripts",
-            null
+            ""
           ],
           [
             "condition_1",
@@ -44451,21 +44701,21 @@
             "",
             "5",
             "",
-            null
+            ""
           ],
           [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ]
         ],
         "all_stims": {
@@ -44473,22 +44723,22 @@
             [
               "cue",
               "answer",
-              null
+              ""
             ],
             [
               "A",
               "Apple",
-              null
+              ""
             ],
             [
               "B",
               "Banana",
-              null
+              ""
             ],
             [
-              null,
-              null,
-              null
+              "",
+              "",
+              ""
             ]
           ]
         },
@@ -44848,7 +45098,7 @@
               "text",
               "Shuffle 1",
               "survey",
-              null
+              ""
             ],
             [
               "2",
@@ -44857,16 +45107,16 @@
               "This is the start of a new experiment.",
               "off",
               "iuc_brief.csv",
-              null
+              ""
             ],
             [
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
             ]
           ]
         },
@@ -44883,7 +45133,7 @@
             "start_message",
             "buffer",
             "scripts",
-            null
+            ""
           ],
           [
             "condition_1",
@@ -44897,21 +45147,21 @@
             "",
             "5",
             "",
-            null
+            ""
           ],
           [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ]
         ],
         "all_stims": {
@@ -44919,22 +45169,22 @@
             [
               "cue",
               "answer",
-              null
+              ""
             ],
             [
               "A",
               "Apple",
-              null
+              ""
             ],
             [
               "B",
               "Banana",
-              null
+              ""
             ],
             [
-              null,
-              null,
-              null
+              "",
+              "",
+              ""
             ]
           ]
         },
@@ -45132,7 +45382,23 @@
           "stimuli_1.csv": "cue,answer,\r\nA,Apple,\r\nB,Banana,\r\n,,"
         },
         "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\n,,,,,,,,,,,",
-        "mods": {}
+        "mods": {},
+        "conditions": [
+          {
+            "name": "condition_1",
+            "notes": "You can put more detailed notes in this field",
+            "stimuli": "stimuli_1.csv",
+            "procedure": "procedure_1.csv",
+            "fullscreen": "off",
+            "welcome": "",
+            "participant_id": "on",
+            "end_message": "",
+            "start_message": "",
+            "buffer": "5",
+            "scripts": "",
+            "": ""
+          }
+        ]
       },
       "2020_sc_questionnaire": {
         "all_procs": {
@@ -47522,7 +47788,7 @@
               "text",
               "Shuffle 1",
               "survey",
-              null
+              ""
             ],
             [
               "2",
@@ -47531,7 +47797,7 @@
               "This is the start of a new experiment.",
               "off",
               "sp3d.csv",
-              null
+              ""
             ],
             [
               "",
@@ -47540,7 +47806,7 @@
               "",
               "",
               "",
-              null
+              ""
             ]
           ]
         },
@@ -48778,7 +49044,7 @@
             ],
             [
               "instructions1",
-              "<span style='color:#006699'><span style='font-size:20px'>Using the scale provided as a guide, indicate how much you agree or disagree with each of the following statements. Give only one answer for each statement:</span></span>",
+              "<span style='color:#006699'><span style='font-size:20px'>Using the scale provided as a guide, indicate how much you agree or disagree with each of the following statements:</span></span>",
               "instruct",
               "",
               "",
@@ -57418,7 +57684,7 @@
         ],
         [
           "Instructions1",
-          "<span style='color:#006699'><span style='font-size:20px'>How strongly do you personally agree with each statement?</span></span><br>\n<br>",
+          "<span style='color:#006699'><span style='font-size:20px'>These questions contain statements about autism.<br>\n<br>\n\nHow strongly do you personally agree with each statement?</span></span><br>\n<br>",
           "Instruct",
           "",
           "",
@@ -62456,7 +62722,7 @@
         ],
         [
           "instructions1",
-          "<span style='color:#006699'><span style='font-size:20px'>Using the scale provided as a guide, indicate how much you agree or disagree with each of the following statements. Give only one answer for each statement:</span></span>",
+          "<span style='color:#006699'><span style='font-size:20px'>Using the scale provided as a guide, indicate how much you agree or disagree with each of the following statements:</span></span>",
           "instruct",
           "",
           "",

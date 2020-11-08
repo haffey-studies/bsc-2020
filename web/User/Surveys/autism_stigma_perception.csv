@@ -1,5 +1,8 @@
 item_name,text,Type,Answers,Values,Score: ASS_personal,Optional,btn_width,
-Instructions1,"<span style='color:#006699'><span style='font-size:20px'>How strongly do you personally agree with each statement?</span></span><br>
+Instructions1,"<span style='color:#006699'><span style='font-size:20px'>These questions contain statements about autism.<br>
+<br>
+
+How strongly do you personally agree with each statement?</span></span><br>
 <br>",Instruct,,,,,,
 ASS_Personal1,"People with autism could snap out of it if they wanted. ",likert,Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree,4|3|2|1|0,1,No,100px,
 ASS_Personal2,Autism is a sign of personal weakness.,likert,Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree,4|3|2|1|0,1,No,100px,

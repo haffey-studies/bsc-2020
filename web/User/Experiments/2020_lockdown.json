@@ -8,7 +8,7 @@
         "text",
         "Shuffle 1",
         "survey",
-        null
+        ""
       ],
       [
         "2",
@@ -17,16 +17,16 @@
         "This is the start of a new experiment.",
         "off",
         "panas_2020.csv",
-        null
+        ""
       ],
       [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
       ]
     ]
   },
@@ -43,7 +43,7 @@
       "start_message",
       "buffer",
       "scripts",
-      null
+      ""
     ],
     [
       "condition_1",
@@ -57,21 +57,21 @@
       "",
       "5",
       "",
-      null
+      ""
     ],
     [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ]
   ],
   "all_stims": {
@@ -79,22 +79,22 @@
       [
         "cue",
         "answer",
-        null
+        ""
       ],
       [
         "A",
         "Apple",
-        null
+        ""
       ],
       [
         "B",
         "Banana",
-        null
+        ""
       ],
       [
-        null,
-        null,
-        null
+        "",
+        "",
+        ""
       ]
     ]
   },

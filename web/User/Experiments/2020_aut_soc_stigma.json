@@ -127,7 +127,7 @@
       ],
       [
         "Instructions1",
-        "<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to you:</span></span>",
+        "<span style='font-size:26px'><span style='color:#3f78d5'>These questions contain statements about autism. \n<br>\n<br>\nWe would like you to tell us what you think most other people believe. Please indicate how\nstrongly you agree or disagree with the following statements</span></span>\n",
         "Instruct",
         "",
         "",
@@ -137,7 +137,7 @@
         ""
       ],
       [
-        "ASS1",
+        "ASS1_soc",
         "Most people believe that people with autism could snap out of it if they wanted.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -148,7 +148,7 @@
         ""
       ],
       [
-        "ASS2",
+        "ASS2_soc",
         "Most people believe that autism is a sign of personal weakness.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -159,7 +159,7 @@
         ""
       ],
       [
-        "ASS3",
+        "ASS3_soc",
         "Most people believe that autism is not a real medicall illness.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -170,7 +170,7 @@
         ""
       ],
       [
-        "ASS4",
+        "ASS4_soc",
         "Most people believe that people with autism are dangerous.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -181,7 +181,7 @@
         null
       ],
       [
-        "ASS5",
+        "ASS5_soc",
         "Most people believe that it is best to avoid people with autism so that you don't become autistic yourself.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -192,7 +192,7 @@
         null
       ],
       [
-        "ASS6",
+        "ASS6_soc",
         "Most people believe that people with autism are unpredictable.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -203,7 +203,7 @@
         null
       ],
       [
-        "ASS7",
+        "ASS7_soc",
         "If they had autism, most people would not tell anyone.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -214,7 +214,7 @@
         null
       ],
       [
-        "ASS8",
+        "ASS8_soc",
         "Most people would not employ someone they knew had been autistic.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -225,7 +225,7 @@
         null
       ],
       [
-        "ASS9",
+        "ASS9_soc",
         "Most people would not vote for a politician they knew had been autistic.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",

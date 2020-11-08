@@ -1,5 +1,5 @@
 item_name,text,type,answers,values,score: TAS-26,"optional ",btn_width,
-instructions1,"<span style='color:#006699'><span style='font-size:20px'>Using the scale provided as a guide, indicate how much you agree or disagree with each of the following statements. Give only one answer for each statement:</span></span>",instruct,,,,,,
+instructions1,"<span style='color:#006699'><span style='font-size:20px'>Using the scale provided as a guide, indicate how much you agree or disagree with each of the following statements:</span></span>",instruct,,,,,,
 tas1,When I cry I always know why,likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
 tas2,Daydreaming is a waste of time,likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,r1,no,100px,
 tas3,I wish I were not so shy,likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
