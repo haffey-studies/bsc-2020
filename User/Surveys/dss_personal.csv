@@ -1,5 +1,5 @@
 item_name,text,Type,Answers,Values,Score: dep_soc_stigma,Optional,btn_width,
-Instructions1,<span style='font-size:26px'><span style='color:#3f78d5'>These questions contain statements about depression. Please indicate how strongly you personally agree or disagree with each statement.</span></span>,Instruct,,,,,,
+Instructions1,<span style='font-size:26px'><span style='color:#3f78d5'>These questions contain statements about depression. Please indicate how strongly <b><u>you personally</u></b> agree or disagree with each statement.</span></span>,Instruct,,,,,,
 DSSQ1_pers,People with depression could snap out of it if they wanted.,likert,Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree,0|1|2|3|4,1,No,100px,
 DSSQ2_pers,Depression is a sign of personal weakness.,likert,Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree,0|1|2|3|4,1,No,100px,
 DSSQ3_pers,Depression is not a real medical illness.,likert,Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree,0|1|2|3|4,1,No,100px,

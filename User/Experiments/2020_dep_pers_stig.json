@@ -127,7 +127,7 @@
       ],
       [
         "Instructions1",
-        "<span style='font-size:26px'><span style='color:#3f78d5'>These questions contain statements about depression. Please indicate how strongly you personally agree or disagree with each statement.</span></span>",
+        "<span style='font-size:26px'><span style='color:#3f78d5'>These questions contain statements about depression. Please indicate how strongly <b><u>you personally</u></b> agree or disagree with each statement.</span></span>",
         "Instruct",
         "",
         "",
