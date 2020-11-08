@@ -235,7 +235,7 @@
       ],
       [
         "Instructions1",
-        "<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to you:</span></span>",
+        "<span style='font-size:26px'><span style='color:#3f78d5'>These questions contain statements about autism. \n<br>\n<br>\nWe would like you to tell us what you think most other people believe. Please indicate how\nstrongly you agree or disagree with the following statements</span></span>\n",
         "Instruct",
         "",
         "",
@@ -245,7 +245,7 @@
         ""
       ],
       [
-        "ASS1",
+        "ASS1_soc",
         "Most people believe that people with autism could snap out of it if they wanted.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -256,7 +256,7 @@
         ""
       ],
       [
-        "ASS2",
+        "ASS2_soc",
         "Most people believe that autism is a sign of personal weakness.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -267,7 +267,7 @@
         ""
       ],
       [
-        "ASS3",
+        "ASS3_soc",
         "Most people believe that autism is not a real medicall illness.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -278,7 +278,7 @@
         ""
       ],
       [
-        "ASS4",
+        "ASS4_soc",
         "Most people believe that people with autism are dangerous.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -289,7 +289,7 @@
         null
       ],
       [
-        "ASS5",
+        "ASS5_soc",
         "Most people believe that it is best to avoid people with autism so that you don't become autistic yourself.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -300,7 +300,7 @@
         null
       ],
       [
-        "ASS6",
+        "ASS6_soc",
         "Most people believe that people with autism are unpredictable.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -311,7 +311,7 @@
         null
       ],
       [
-        "ASS7",
+        "ASS7_soc",
         "If they had autism, most people would not tell anyone.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -322,7 +322,7 @@
         null
       ],
       [
-        "ASS8",
+        "ASS8_soc",
         "Most people would not employ someone they knew had been autistic.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -333,7 +333,7 @@
         null
       ],
       [
-        "ASS9",
+        "ASS9_soc",
         "Most people would not vote for a politician they knew had been autistic.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
@@ -398,7 +398,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -413,7 +413,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -428,7 +428,7 @@
         "1",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -443,7 +443,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -458,7 +458,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -473,7 +473,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -488,7 +488,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -503,7 +503,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -518,7 +518,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -533,7 +533,7 @@
         "1",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -548,7 +548,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -563,7 +563,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -578,7 +578,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -593,7 +593,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -608,7 +608,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -623,7 +623,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -638,7 +638,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -653,7 +653,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -668,7 +668,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -683,7 +683,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -698,7 +698,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -713,7 +713,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -728,7 +728,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -743,7 +743,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -758,7 +758,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -773,7 +773,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -788,7 +788,7 @@
         "1",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -803,7 +803,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -818,7 +818,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -833,7 +833,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -848,7 +848,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -863,7 +863,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -878,7 +878,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -893,7 +893,7 @@
         "1",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -908,7 +908,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -923,7 +923,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -938,7 +938,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -953,7 +953,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -968,7 +968,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -983,7 +983,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -998,7 +998,7 @@
         "1",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -1013,7 +1013,7 @@
         "1",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -1028,7 +1028,7 @@
         "1",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -1043,7 +1043,7 @@
         "",
         "1",
         "No",
-        "100px",
+        "250px",
         null
       ],
       [
@@ -1364,7 +1364,7 @@
         null
       ],
       [
-        "DSSQ1",
+        "DSSQ1_pers",
         "People with depression could snap out of it if they wanted.",
         "likert",
         "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
@@ -1375,7 +1375,7 @@
         null
       ],
       [
-        "DSSQ2",
+        "DSSQ2_pers",
         "Depression is a sign of personal weakness.",
         "likert",
         "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
@@ -1386,7 +1386,7 @@
         null
       ],
       [
-        "DSSQ3",
+        "DSSQ3_pers",
         "Depression is not a real medical illness.",
         "likert",
         "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
@@ -1397,7 +1397,7 @@
         null
       ],
       [
-        "DSSQ4",
+        "DSSQ4_pers",
         "People with depression are dangerous.",
         "likert",
         "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
@@ -1408,7 +1408,7 @@
         null
       ],
       [
-        "DSSQ5",
+        "DSSQ5_pers",
         "It is best to avoid people with depression so you don’t become depressed yourself.",
         "likert",
         "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
@@ -1419,7 +1419,7 @@
         null
       ],
       [
-        "DSSQ6",
+        "DSSQ6_pers",
         "People with depression are unpredictable.",
         "likert",
         "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
@@ -1430,7 +1430,7 @@
         null
       ],
       [
-        "DSSQ7",
+        "DSSQ7_pers",
         "If I had depression I would not tell anyone.",
         "likert",
         "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
@@ -1441,7 +1441,7 @@
         null
       ],
       [
-        "DSSQ8",
+        "DSSQ8_pers",
         "I would not employ someone if I knew they had been depressed.",
         "likert",
         "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
@@ -1452,7 +1452,128 @@
         null
       ],
       [
-        "DSSQ9",
+        "DSSQ9_pers",
+        "I would not vote for a politician if I knew they had been depressed.",
+        "likert",
+        "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+        "0|1|2|3|4",
+        "1",
+        "No",
+        "100px",
+        null
+      ],
+      [
+        "Instructions1",
+        "<span style='font-size:26px'><span style='color:#3f78d5'>These questions contain statements about depression. Please indicate how strongly <u><b>you think your parent</b></u> agrees or disagrees with each statement. There's no need to ask them to complete it, just try to estimate how they would repond to each item:</span></span>",
+        "Instruct",
+        "",
+        "",
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        "gass_soc_parent",
+        "Please answer the following questions on behalf of one of your parents. Which parent will this be based on? Please write \"Mother\" or \"Father\" if possible, or explain if the person you have chosen is a step-parent or other relative.",
+        "text",
+        "",
+        "",
+        "",
+        "No",
+        "",
+        null
+      ],
+      [
+        "DSSQ1_pers_parent",
+        "People with depression could snap out of it if they wanted.",
+        "likert",
+        "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+        "0|1|2|3|4",
+        "1",
+        "No",
+        "100px",
+        null
+      ],
+      [
+        "DSSQ2_pers_parent",
+        "Depression is a sign of personal weakness.",
+        "likert",
+        "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+        "0|1|2|3|4",
+        "1",
+        "No",
+        "100px",
+        null
+      ],
+      [
+        "DSSQ3_pers_parent",
+        "Depression is not a real medical illness.",
+        "likert",
+        "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+        "0|1|2|3|4",
+        "1",
+        "No",
+        "100px",
+        null
+      ],
+      [
+        "DSSQ4_pers_parent",
+        "People with depression are dangerous.",
+        "likert",
+        "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+        "0|1|2|3|4",
+        "1",
+        "No",
+        "100px",
+        null
+      ],
+      [
+        "DSSQ5_pers_parent",
+        "It is best to avoid people with depression so you don’t become depressed yourself.",
+        "likert",
+        "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+        "0|1|2|3|4",
+        "1",
+        "No",
+        "100px",
+        null
+      ],
+      [
+        "DSSQ6_pers_parent",
+        "People with depression are unpredictable.",
+        "likert",
+        "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+        "0|1|2|3|4",
+        "1",
+        "No",
+        "100px",
+        null
+      ],
+      [
+        "DSSQ7_pers_parent",
+        "If I had depression I would not tell anyone.",
+        "likert",
+        "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+        "0|1|2|3|4",
+        "1",
+        "No",
+        "100px",
+        null
+      ],
+      [
+        "DSSQ8_pers_parent",
+        "I would not employ someone if I knew they had been depressed.",
+        "likert",
+        "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",
+        "0|1|2|3|4",
+        "1",
+        "No",
+        "100px",
+        null
+      ],
+      [
+        "DSSQ9_pers_parent",
         "I would not vote for a politician if I knew they had been depressed.",
         "likert",
         "Strongly disagree|Disagree|Neither agree or disagree|Agree| Strongly agree",

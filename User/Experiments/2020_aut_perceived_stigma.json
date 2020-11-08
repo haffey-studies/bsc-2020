@@ -261,7 +261,7 @@
       ],
       [
         "Instructions1",
-        "<span style='color:#006699'><span style='font-size:20px'>How strongly do you personally agree with each statement?</span></span>",
+        "<span style='color:#006699'><span style='font-size:20px'>These questions contain statements about autism.<br>\n<br>\n\nHow strongly do you personally agree with each statement?</span></span><br>\n<br>",
         "Instruct",
         "",
         "",

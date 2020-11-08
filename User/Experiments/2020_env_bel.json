@@ -8,7 +8,7 @@
         "text",
         "Shuffle 1",
         "survey",
-        null
+        ""
       ],
       [
         "2",
@@ -17,16 +17,16 @@
         "This is the start of a new experiment.",
         "off",
         "environment_beliefs.csv",
-        null
+        ""
       ],
       [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
       ]
     ]
   },
@@ -43,7 +43,7 @@
       "start_message",
       "buffer",
       "scripts",
-      null
+      ""
     ],
     [
       "condition_1",
@@ -57,21 +57,21 @@
       "",
       "5",
       "",
-      null
+      ""
     ],
     [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ]
   ],
   "all_stims": {
@@ -79,22 +79,22 @@
       [
         "cue",
         "answer",
-        null
+        ""
       ],
       [
         "A",
         "Apple",
-        null
+        ""
       ],
       [
         "B",
         "Banana",
-        null
+        ""
       ],
       [
-        null,
-        null,
-        null
+        "",
+        "",
+        ""
       ]
     ]
   },
@@ -124,7 +124,8 @@
         "score: env_beh",
         "btn_width",
         "side_text",
-        ""
+        "side_width",
+        null
       ],
       [
         "env_bel1",
@@ -135,8 +136,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel2",
@@ -147,8 +149,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel3",
@@ -159,8 +162,9 @@
         "No",
         "r1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel4",
@@ -171,8 +175,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel5",
@@ -183,8 +188,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel6",
@@ -195,8 +201,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel7",
@@ -207,8 +214,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel8",
@@ -219,8 +227,9 @@
         "No",
         "r1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel9",
@@ -231,8 +240,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel10",
@@ -243,8 +253,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel11",
@@ -255,8 +266,9 @@
         "No",
         "r1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel12",
@@ -267,8 +279,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel13",
@@ -279,8 +292,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel14",
@@ -291,8 +305,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel15",
@@ -303,8 +318,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel16",
@@ -315,8 +331,9 @@
         "No",
         "r1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel17",
@@ -327,8 +344,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel18",
@@ -339,8 +357,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel19",
@@ -351,8 +370,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel20",
@@ -363,8 +383,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel21",
@@ -375,8 +396,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel22",
@@ -387,8 +409,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel23",
@@ -399,8 +422,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel24",
@@ -411,8 +435,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel25",
@@ -423,8 +448,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel26",
@@ -435,8 +461,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel27",
@@ -447,8 +474,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel28",
@@ -459,8 +487,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel29",
@@ -471,8 +500,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel30",
@@ -483,8 +513,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel31",
@@ -495,8 +526,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel32",
@@ -507,8 +539,9 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
-        ""
+        "Completely Disagree|Completely Agree",
+        "200px",
+        null
       ],
       [
         "env_bel33",
@@ -519,7 +552,8 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
+        "Completely Disagree|Completely Agree",
+        "200px",
         null
       ],
       [
@@ -531,7 +565,8 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
+        "Completely Disagree|Completely Agree",
+        "200px",
         null
       ],
       [
@@ -543,7 +578,8 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
+        "Completely Disagree|Completely Agree",
+        "200px",
         null
       ],
       [
@@ -555,7 +591,8 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
+        "Completely Disagree|Completely Agree",
+        "200px",
         null
       ],
       [
@@ -567,7 +604,8 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
+        "Completely Disagree|Completely Agree",
+        "200px",
         null
       ],
       [
@@ -579,7 +617,8 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
+        "Completely Disagree|Completely Agree",
+        "200px",
         null
       ],
       [
@@ -591,7 +630,8 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
+        "Completely Disagree|Completely Agree",
+        "200px",
         null
       ],
       [
@@ -603,7 +643,8 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
+        "Completely Disagree|Completely Agree",
+        "200px",
         null
       ],
       [
@@ -615,7 +656,8 @@
         "No",
         "1",
         "50px",
-        "Almost never|Almost always",
+        "Completely Disagree|Completely Agree",
+        "200px",
         null
       ],
       [
@@ -628,9 +670,11 @@
         "",
         "50px",
         "Not at all|Extremely",
+        null,
         null
       ],
       [
+        null,
         null,
         null,
         null,
@@ -655,5 +699,21 @@
     "stimuli_1.csv": "cue,answer,\r\nA,Apple,\r\nB,Banana,\r\n,,"
   },
   "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\n,,,,,,,,,,,",
-  "mods": {}
+  "mods": {},
+  "conditions": [
+    {
+      "name": "condition_1",
+      "notes": "You can put more detailed notes in this field",
+      "stimuli": "stimuli_1.csv",
+      "procedure": "procedure_1.csv",
+      "fullscreen": "off",
+      "welcome": "",
+      "participant_id": "on",
+      "end_message": "",
+      "start_message": "",
+      "buffer": "5",
+      "scripts": "",
+      "": ""
+    }
+  ]
 }
