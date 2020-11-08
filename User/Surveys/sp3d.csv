@@ -1,5 +1,5 @@
 item_name,text,Type,Answers,Values,Score: sp3d,Optional,btn_width,
-Instructions1,<span style='color:#006699'><span style='font-size:20px'>Select yes for each item that applies to you:</span></span>,instruct,,,,,,
+Instructions1,<span style='color:#006699'><span style='font-size:20px'>Select yes or no to identify whether each statement applies to you:</span></span>,instruct,,,,,,
 sp3d1,"I am bothered by or feel discomfort wearing wool clothes, clothes with tags or socks with seams",likert,Yes|No,1|0,r1,No,100px,
 sp3d2,"Doing some self-care tasks such as washing face, brushing teeth and/or brushing
 hair bothers me",likert,Yes|No,1|0,r1,No,100px,
