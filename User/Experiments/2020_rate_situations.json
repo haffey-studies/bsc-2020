@@ -135,5 +135,9 @@
       "scripts": "",
       "": ""
     }
-  ]
+  ],
+  "location": "haffey-studies/bsc-2020",
+  "storage_scripts": {
+    "ocollector.org": "https://ocollector.org/StoreData10_aodirnkcu73hsjd8.php"
+  }
 }
