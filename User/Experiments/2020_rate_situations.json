@@ -18,7 +18,7 @@
         "cue_width",
         "n_trials",
         "fb_time",
-        null
+        ""
       ],
       [
         "2 to 3",
@@ -37,26 +37,26 @@
         "400",
         "",
         "",
-        null
+        ""
       ],
       [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
       ]
     ]
   },
@@ -122,9 +122,9 @@
         ""
       ],
       [
-        null,
-        null,
-        null
+        "",
+        "",
+        ""
       ]
     ]
   },
