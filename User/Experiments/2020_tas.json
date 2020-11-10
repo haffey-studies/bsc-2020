@@ -120,8 +120,8 @@
         "type",
         "answers",
         "values",
-        "score: TAS-26",
-        "optional ",
+        "score: tas_26",
+        "optional",
         "btn_width",
         null
       ],
