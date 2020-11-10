@@ -49860,7 +49860,27 @@
           "stimuli_1.csv": "cue,answer,\r\nA,Apple,\r\nB,Banana,\r\n,,"
         },
         "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\n,,,,,,,,,,,",
-        "mods": {}
+        "mods": {},
+        "conditions": [
+          {
+            "name": "condition_1",
+            "notes": "You can put more detailed notes in this field",
+            "stimuli": "stimuli_1.csv",
+            "procedure": "procedure_1.csv",
+            "fullscreen": "off",
+            "welcome": "",
+            "participant_id": "on",
+            "end_message": "",
+            "start_message": "",
+            "buffer": "5",
+            "scripts": "",
+            "": ""
+          }
+        ],
+        "location": "haffey-studies/bsc-2020",
+        "storage_scripts": {
+          "ocollector.org": "https://ocollector.org/StoreData10_aodirnkcu73hsjd8.php"
+        }
       }
     },
     "incomp_process": false,
