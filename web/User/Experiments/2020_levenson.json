@@ -207,7 +207,7 @@
       ],
       [
         "chance",
-        "When I get what I want, it’s usually because I'm lucky.",
+        "When I get what I want, it is usually because I am lucky.",
         "likert",
         "strongly disagree|disagree somewhat|slightly disagree| slightly agree|agree somewhat|strongly agree",
         "-3|-2|-1|1|2|3",
@@ -220,7 +220,7 @@
       ],
       [
         "PO",
-        "Although I might have good ability, I will not be given leadership responsibility without appealing to those in positions of power. ",
+        "Although I might have good ability, I will not be given leadership responsibility without appealing to those in positions of power.",
         "likert",
         "strongly disagree|disagree somewhat|slightly disagree| slightly agree|agree somewhat|strongly agree",
         "-3|-2|-1|1|2|3",
@@ -246,7 +246,7 @@
       ],
       [
         "chance",
-        "I have often found that what is going to happen will happen. ",
+        "I have often found that what is going to happen will happen.",
         "likert",
         "strongly disagree|disagree somewhat|slightly disagree| slightly agree|agree somewhat|strongly agree",
         "-3|-2|-1|1|2|3",
@@ -285,7 +285,7 @@
       ],
       [
         "PO",
-        "People like myself have very little chance of protecting our personal interests when they conflict with those of strong pressure groups. ",
+        "People like myself have very little chance of protecting our personal interests when they conflict with those of strong pressure groups.",
         "likert",
         "strongly disagree|disagree somewhat|slightly disagree| slightly agree|agree somewhat|strongly agree",
         "-3|-2|-1|1|2|3",
@@ -298,7 +298,7 @@
       ],
       [
         "chance",
-        "It's not always wise for me to plan too far ahead beacuase many things turn out to be a matter of good or bad fortune. ",
+        "It is not always wise for me to plan too far ahead because many things turn out to be a matter of good or bad fortune.",
         "likert",
         "strongly disagree|disagree somewhat|slightly disagree| slightly agree|agree somewhat|strongly agree",
         "-3|-2|-1|1|2|3",
@@ -324,7 +324,7 @@
       ],
       [
         "chance",
-        "Whether or not I get to be a leader depends on whether I’m lucky enough to be in the right place at the right time.",
+        "Whether or not I get to be a leader depends on whether I am lucky enough to be in the right place at the right time.",
         "likert",
         "strongly disagree|disagree somewhat|slightly disagree| slightly agree|agree somewhat|strongly agree",
         "-3|-2|-1|1|2|3",
@@ -337,7 +337,7 @@
       ],
       [
         "PO",
-        "If important people were to decide they didn’t like me, I probably wouldn’t make many friends.",
+        "If important people were to decide they did not like me, I probably would not make many friends.",
         "likert",
         "strongly disagree|disagree somewhat|slightly disagree| slightly agree|agree somewhat|strongly agree",
         "-3|-2|-1|1|2|3",
@@ -389,7 +389,7 @@
       ],
       [
         "internal",
-        "When I get what I want, it’s usually because I worked hard for it.",
+        "When I get what I want, it is usually because I worked hard for it.",
         "likert",
         "strongly disagree|disagree somewhat|slightly disagree| slightly agree|agree somewhat|strongly agree",
         "-3|-2|-1|1|2|3",
