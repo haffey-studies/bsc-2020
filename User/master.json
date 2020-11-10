@@ -42393,6 +42393,7 @@
               "Score: PHQ9",
               "Optional",
               "btn_width",
+              "side_text",
               null
             ],
             [
@@ -42404,6 +42405,7 @@
               "",
               "",
               "",
+              null,
               null
             ],
             [
@@ -42415,6 +42417,7 @@
               "1",
               "No",
               "100px",
+              null,
               null
             ],
             [
@@ -42426,6 +42429,7 @@
               "1",
               "No",
               "100px",
+              null,
               null
             ],
             [
@@ -42437,6 +42441,7 @@
               "1",
               "No",
               "100px",
+              null,
               null
             ],
             [
@@ -42448,6 +42453,7 @@
               "1",
               "No",
               "100px",
+              null,
               null
             ],
             [
@@ -42459,6 +42465,7 @@
               "1",
               "No",
               "100px",
+              null,
               null
             ],
             [
@@ -42470,6 +42477,7 @@
               "1",
               "No",
               "100px",
+              null,
               null
             ],
             [
@@ -42481,6 +42489,7 @@
               "1",
               "No",
               "100px",
+              null,
               null
             ],
             [
@@ -42492,6 +42501,7 @@
               "1",
               "No",
               "100px",
+              null,
               null
             ],
             [
@@ -42503,9 +42513,23 @@
               "1",
               "No",
               "100px",
+              null,
               null
             ],
             [
+              "phq_stigma",
+              "How much have you been shamed or stigmatised for the above behaviour?",
+              "likert",
+              "1|2|3|4|5|6|7|8|9|10|11",
+              "1|2|3|4|5|6|7|8|9|10|11",
+              "",
+              "No",
+              "",
+              "Not at all|Extremely",
+              null
+            ],
+            [
+              null,
               null,
               null,
               null,
@@ -57910,6 +57934,7 @@
           "Score: PHQ9",
           "Optional",
           "btn_width",
+          "side_text",
           null
         ],
         [
@@ -57921,6 +57946,7 @@
           "",
           "",
           "",
+          null,
           null
         ],
         [
@@ -57932,6 +57958,7 @@
           "1",
           "No",
           "100px",
+          null,
           null
         ],
         [
@@ -57943,6 +57970,7 @@
           "1",
           "No",
           "100px",
+          null,
           null
         ],
         [
@@ -57954,6 +57982,7 @@
           "1",
           "No",
           "100px",
+          null,
           null
         ],
         [
@@ -57965,6 +57994,7 @@
           "1",
           "No",
           "100px",
+          null,
           null
         ],
         [
@@ -57976,6 +58006,7 @@
           "1",
           "No",
           "100px",
+          null,
           null
         ],
         [
@@ -57987,6 +58018,7 @@
           "1",
           "No",
           "100px",
+          null,
           null
         ],
         [
@@ -57998,6 +58030,7 @@
           "1",
           "No",
           "100px",
+          null,
           null
         ],
         [
@@ -58009,6 +58042,7 @@
           "1",
           "No",
           "100px",
+          null,
           null
         ],
         [
@@ -58020,9 +58054,23 @@
           "1",
           "No",
           "100px",
+          null,
           null
         ],
         [
+          "phq_stigma",
+          "How much have you been shamed or stigmatised for the above behaviour?",
+          "likert",
+          "1|2|3|4|5|6|7|8|9|10|11",
+          "1|2|3|4|5|6|7|8|9|10|11",
+          "",
+          "No",
+          "",
+          "Not at all|Extremely",
+          null
+        ],
+        [
+          null,
           null,
           null,
           null,
