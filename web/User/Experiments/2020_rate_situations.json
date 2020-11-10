@@ -7,23 +7,56 @@
         "max time",
         "text",
         "Shuffle 1",
-        ""
+        "btn_width",
+        "instruct_1",
+        "responses_1",
+        "instruct_2",
+        "responses_2",
+        "instruct_3",
+        "responses_3",
+        "cue_height",
+        "cue_width",
+        "n_trials",
+        "fb_time",
+        null
       ],
       [
-        "2",
+        "2 to 3",
         "rate_image",
         "user",
         "This is the start of a new experiment.",
-        "off",
-        ""
+        "trials",
+        "50px",
+        "How anxious would you feel in the above interaction (1 = not at all, 9 = extremely)",
+        "1|2|3|4|5|6|7|8|9",
+        "",
+        "",
+        "",
+        "",
+        "300",
+        "400",
+        "",
+        "",
+        null
       ],
       [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
       ]
     ]
   },
@@ -75,23 +108,23 @@
     "stimuli_1.csv": [
       [
         "cue",
-        "answer",
+        "image_type",
         ""
       ],
       [
-        "A",
-        "Apple",
+        "../User/Stimuli/face_video/video1.jpg",
+        "video",
         ""
       ],
       [
-        "B",
-        "Banana",
+        "../User/Stimuli/face_video/pexels_daria_shevtsova_1560932.jpg",
+        "facetoface",
         ""
       ],
       [
-        "",
-        "",
-        ""
+        null,
+        null,
+        null
       ]
     ]
   },
@@ -99,12 +132,23 @@
   "parsed_procs": {
     "procedure_1.csv": [
       {
-        "item": "2",
+        "item": "2 to 3",
         "trial type": "rate_image",
         "max time": "user",
         "text": "This is the start of a new experiment.",
+        "btn_width": "50px",
+        "instruct_1": "How anxious would you feel in the above interaction (1 = not at all, 9 = extremely)",
+        "responses_1": "1|2|3|4|5|6|7|8|9",
+        "instruct_2": "",
+        "responses_2": "",
+        "instruct_3": "",
+        "responses_3": "",
+        "cue_height": "300",
+        "cue_width": "400",
+        "n_trials": "",
+        "fb_time": "",
         "": "",
-        "shuffle 1": "off"
+        "shuffle 1": "trials"
       }
     ]
   },
@@ -114,10 +158,10 @@
     "rate_image": "<!--\nThis is from Borcsok, Fitzgibbins and Haffey (2020) investigation into gambling and alcohol behaviour\n-->\n<style>\n#face_img{\n  width:{{cue_width}};\n  height:{{cue_height}};\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n#instructions{\n  text-align: center;\n  font-size:20px;\n}\n#response_div{\n  margin: auto;\n  width: 100%;\n  padding: 10px;\n  text-align: center;\n}\n#submit_btn{\n  margin:0 auto;\n  display:none;\n}\n.response_btn{\n  margin:5px;\n  width:{{btn_width}};\n}\n</style>\n<img src=\"{{cue}}\" id=\"face_img\"/>  <!-- if you want to refer to a local image, you need to identify it's relative location to RunStudy.html -->\n<div id=\"response_div\"></div>\n<div id=\"button_container\">\n  <button class=\"btn btn-danger\" onclick=\"Trial.submit()\" id=\"submit_btn\">Submit</button>\n</div>\n<input type=\"hidden\" name=\"face_response\" id=\"face_response\"/>\n<script>\nno_stims = 0;\nresp_div_html = \"\";\nresp_upper    = 0;\nresponses_array =   [\"{{responses_1}}\",\n                     \"{{responses_2}}\",\n                     \"{{responses_3}}\"];\ninstruction_array = [\"{{instruct_1}}\",\n                     \"{{instruct_2}}\",\n                     \"{{instruct_3}}\"];\n\nrow_classes = [\"primary\",\n               \"info\",\n               \"secondary\"];\n\nfor(var i = 0; i < 3; i++){\n  responses = responses_array[i];\n  if(responses == \"\"){\n    break;\n  }\n  no_stims++;\n  \n  responses = responses.split(\"|\");\n  resp_div_html += \"<h3 class='text-\" + row_classes[i] + \"'>\" +  instruction_array[i] + \"</h3>\";\n  resp_div_html += \"<div style='margin:10px'>\";\n  resp_div_html += responses.map(function(response){\n    return \"<button name='face_rating_\" + (i+1) + \"' class='btn btn-\" + row_classes[i] + \" response_btn'>\" + response + \"</button>\";\n  }).join(\"\");\n  resp_div_html += \"<input type='hidden' id='face_response_\" + (i+1) + \"' name='face_response_\" + (i+1) + \"'>\";\n  resp_div_html += \"</div>\";\n};\n\n$(\"#response_div\").html(resp_div_html);\n$(\".response_btn\").on(\"click\",function(){\n  var response_id = $(this).attr(\"name\").replace(\"rating\",\"response\");\n  $(\"#\" + response_id).val(this.innerHTML);\n  $('[name=\"' + $(this).attr(\"name\") + '\"]').removeClass(\"btn-danger\");\n  $(this).addClass(\"btn-danger\");\n  check_responses();\n});\nfunction check_responses(){\n  valid_responses = 0;\n  for(var i = 1; i < no_stims + 1; i++){\n    if($(\"#face_response_\" + i).val() !== \"\"){\n      valid_responses++;\n    }\n  }\n  if(valid_responses == no_stims){\n    $(\"#submit_btn\").css(\"display\", \"block\");\n  }\n}\n</script>"
   },
   "procs_csv": {
-    "procedure_1.csv": "item,trial type,max time,text,Shuffle 1,\r\n2,rate_image,user,This is the start of a new experiment.,off,\r\n,,,,,"
+    "procedure_1.csv": "item,trial type,max time,text,Shuffle 1,btn_width,instruct_1,responses_1,instruct_2,responses_2,instruct_3,responses_3,cue_height,cue_width,n_trials,fb_time,\r\n2 to 3,rate_image,user,This is the start of a new experiment.,trials,50px,\"How anxious would you feel in the above interaction (1 = not at all, 9 = extremely)\",1|2|3|4|5|6|7|8|9,,,,,300,400,,,\r\n,,,,,,,,,,,,,,,,"
   },
   "stims_csv": {
-    "stimuli_1.csv": "cue,answer,\r\nA,Apple,\r\nB,Banana,\r\n,,"
+    "stimuli_1.csv": "cue,image_type,\r\n../User/Stimuli/face_video/video1.jpg,video,\r\n../User/Stimuli/face_video/pexels_daria_shevtsova_1560932.jpg,facetoface,\r\n,,"
   },
   "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\n,,,,,,,,,,,",
   "conditions": [
