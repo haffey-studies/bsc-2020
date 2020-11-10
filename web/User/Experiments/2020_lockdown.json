@@ -129,7 +129,7 @@
       ],
       [
         "Instructions1",
-        "<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to how you felt during the first mo:</span></span>",
+        "<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to how you felt during the first month of lockdown:</span></span>",
         "Instruct",
         "",
         "",
@@ -442,5 +442,9 @@
       "scripts": "",
       "": ""
     }
-  ]
+  ],
+  "location": "haffey-studies/bsc-2020",
+  "storage_scripts": {
+    "ocollector.org": "https://ocollector.org/StoreData10_aodirnkcu73hsjd8.php"
+  }
 }
