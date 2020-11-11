@@ -127,7 +127,7 @@
       ],
       [
         "Instructions1",
-        "<span style='color:#006699'><span style='font-size:20px'>Select yes or no to identify whether each statement applies to you:</span></span>",
+        "<span style='color:#006699'><span style='font-size:20px'>These questions are about how you perceive the world through your senses (vision, hearing, touch, etc.). Please indicate how often each of the descriptions below applies to you. If a description does not apply to you, please select 'almost never'.</span></span>",
         "instruct",
         "",
         "",
