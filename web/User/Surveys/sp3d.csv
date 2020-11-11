@@ -1,5 +1,5 @@
 item_name,text,Type,Answers,Values,Score: sp3d,Optional,btn_width,
-Instructions1,<span style='color:#006699'><span style='font-size:20px'>Select yes or no to identify whether each statement applies to you:</span></span>,instruct,,,,,,
+Instructions1,"<span style='color:#006699'><span style='font-size:20px'>These questions are about how you perceive the world through your senses (vision, hearing, touch, etc.). Please indicate how often each of the descriptions below applies to you. If a description does not apply to you, please select 'almost never'.</span></span>",instruct,,,,,,
 sp3d1,"I am bothered by or feel discomfort wearing wool clothes, clothes with tags or socks with seams",likert,Almost Never|Seldom|Occasionally|Frequently|Almost Always,1|2|3|4|5,1,No,150px,
 sp3d2,"Doing some self-care tasks such as washing face, brushing teeth and/or brushing
 hair bothers me",likert,Almost Never|Seldom|Occasionally|Frequently|Almost Always,1|2|3|4|5,1,No,150px,
