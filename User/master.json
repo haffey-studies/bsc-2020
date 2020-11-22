@@ -68160,19 +68160,31 @@
     }
   },
   "pathway_mgmt": {
-    "current": "asdf",
+    "current": "fdsa",
     "pathway": {
-      "asdf": {
+      "asdfas": {
+        "order": [
+          "2020_anx_per_stig"
+        ],
+        "items": {
+          "2020_anx_per_stig": {
+            "name": "condition_1"
+          }
+        }
+      }
+    },
+    "pathways": {
+      "fdsa": {
         "order": [
           "2020_anx_per_stig",
           "2020_anx_per_stig",
-          "2020_aut_perceived_stigma"
+          "2020_dep_pers_stig"
         ],
         "items": {
           "2020_anx_per_stig": {
             "name": "condition_1"
           },
-          "2020_aut_perceived_stigma": {
+          "2020_dep_pers_stig": {
             "name": "condition_1"
           }
         }
