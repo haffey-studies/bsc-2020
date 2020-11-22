@@ -51,9 +51,15 @@
 
 <button class="btn btn-primary" id="clear_all">Clear this information on your browser</button>
 
+
+
+
+
 <div id="pathway_list_div"></div>
 
 <script>
+
+
 var Pathway = {};
 
 $("#clear_all").on("click",function(){
@@ -173,68 +179,8 @@ function get_gets() {
       $.get("../User/Pathway/" + Pathway.get_vars.pathway + ".json", function(pathway_content){
 
 
-        var pathway_list = '<div class="jumbotron jumbotron-fluid">' +
-          '<div class="container">' +
-            //'<h1 class="display-4">Task List</h1>' +
-            '<h4 class="text-danger">Please complete the tasks in the order they are listed.<br>You need to tick this list manually after each task</h4>' +
-            "<table>";
-        pathway.order.forEach(function(item,item_index){
-          pathway_list +=
-            '<tr>' +
-              '<td style="height:30px">' +
-                '<div class="border border-danger" style="height:10px; width:1px; bottom:15px; position:relative;"></div>' +
-                '<div class="border border-danger" style="height:1px; width:10px; bottom:5px; position:relative;"></div>' +
-                '<div class="border border-danger" style="height:10px; width:1px;  bottom:0px; position:relative;"></div>' +
-              '</td>' +
-              '<td style="padding:5px;">' +
-                '<span class="form-check">' +
-                  '<input class="form-check-input check_study" type="checkbox" value="' + item + '" id="study_check' + item_index + '">' +
-                  '<h4 class="text-primary">' +
-                    '<label class="form-check-label" for="study_check' +
-                      item_index + '">' +
-                      item +
-                    '</label>'+
-                  '</td>' +
-                  '<td style="padding:5px;">' +
-                    "<a href='RunStudy.html?location=" +
-                      item +
-                      "&platform=" +
-                      Pathway.get_vars.platform +
-                      "&name=" +
-                      pathway.items[item].name +
-                      "' target='_blank' class='btn btn-primary' style='width:100%'>" +
-                      item +
-                    "</a>";
-                  '</h4>' +
-                '</span>' +
-              "</td>" +
-            "</tr>";
-        });
-        pathway_list += "</table></div></div>";
-        $("#pathway_list_div").html(pathway_list);
-
-        if(typeof(localStorage.completed_studies) == "undefined"){
-          localStorage.completed_studies = JSON.stringify([]);
-        }
-        var completed_studies = JSON.parse(localStorage.completed_studies);
-        pathway.order.forEach(function(item,item_number){
-          if(completed_studies.indexOf(item) !== -1){
-            $("#study_check" + item_number).prop("checked",true);
-          }
-        });
-
-
-
-
-        $(".check_study").on("click",function(){
-          var completed_studies = JSON.parse(localStorage.completed_studies);
-          if(completed_studies.indexOf(this.value) == -1){
-            completed_studies.push(this.value);
-          } else {
-            delete completed_studies[completed_studies.indexOf(this.value)];
-          }
-          localStorage.completed_studies = JSON.stringify(completed_studies);
-        });
+        console.dir("pathway_content");
+        console.dir(pathway_content);
       });
       break;
   }
