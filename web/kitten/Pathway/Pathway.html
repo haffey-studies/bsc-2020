@@ -225,7 +225,7 @@ $("#run_pathway_btn").on("click", function(){
     "title" : "How would you like run this pathway?",
     "message": "Copy the below link for your participants (remember to push the changes to your repository and give it 5 minutes for the changes to come through)<input class='form-control' id='pathway_url' value='" + pathway_url + "'>",
     "buttons": {
-      "run": {
+      "Run": {
         callback:function(){
           var this_url = window.location.href.split("/" + Collector.version)[0] +
                                                     "/" + Collector.version + "/";
@@ -237,7 +237,7 @@ $("#run_pathway_btn").on("click", function(){
           );
         }
       },
-      "cancel": {
+      "Cancel": {
 
       }
     }
