@@ -42388,8 +42388,8 @@
               "PHQ9",
               "Thoughts that you would be better off dead, or of hurting yourself in some way?",
               "likert",
-              "Not at all|Several days|More than half the days|Nearly every day",
-              "0|1|2|3",
+              "Not at all|Several days|More than half the days|Nearly every day|I would rather not answer",
+              "0|1|2|3|NA",
               "1",
               "No",
               "100px",
@@ -57368,8 +57368,8 @@
           "PHQ9",
           "Thoughts that you would be better off dead, or of hurting yourself in some way?",
           "likert",
-          "Not at all|Several days|More than half the days|Nearly every day",
-          "0|1|2|3",
+          "Not at all|Several days|More than half the days|Nearly every day|I would rather not answer",
+          "0|1|2|3|NA",
           "1",
           "No",
           "100px",
@@ -68153,6 +68153,26 @@
         ],
         "items": {
           "aq_with_stigma": {
+            "name": "condition_1"
+          }
+        }
+      }
+    }
+  },
+  "pathway_mgmt": {
+    "current": "asdf",
+    "pathway": {
+      "asdf": {
+        "order": [
+          "2020_anx_per_stig",
+          "2020_anx_per_stig",
+          "2020_aut_perceived_stigma"
+        ],
+        "items": {
+          "2020_anx_per_stig": {
+            "name": "condition_1"
+          },
+          "2020_aut_perceived_stigma": {
             "name": "condition_1"
           }
         }
