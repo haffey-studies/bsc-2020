@@ -1,5 +1,5 @@
 item_name,text,Type,Answers,Values,Score: Health anxiety,Optional,btn_width,question_width,
-instruct2,"Each question is this section consists of a group of four statements. Please read each group of statements carefully and then select the one which best describes your feelings, over the past six months.",instruct,,,,,,,
+instruct2,"Each question in this section consists of a group of four statements. Please read each group of statements carefully and then select the one which best describes your feelings, over the past six months.",instruct,,,,,,,
 HAI1,<h2>1</h2>,radio,I do not worry about my health.| I occasionally worry about my health. | I spend much of my time worrying about my health | I spend most of my time worrying about my health.,1|2|3|4,1,No,100px,10%,
 HAI2,<h2>2</h2>,radio,I notice aches/pains less than most other people (of my age). | I notice aches/pains as much as most other people (of my age). |  I notice aches/pains more than most other people (of my age).| I am aware of aches/pains in my body all the time.,1|2|3|4,1,No,100px,10%,
 HAI3,<h2>3</h2>,radio,As a rule I am not aware of bodily sensations or changes. | Sometimes I am aware of bodily sensations or changes. | I am often aware of bodily sensations or changes.|I am constantly aware of bodily sensations or changes.,1|2|3|4,1,No,100px,10%,
