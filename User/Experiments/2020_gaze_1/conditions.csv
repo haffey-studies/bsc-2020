@@ -1,4 +1,4 @@
-name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,download_at_end,forward_at_end,mobile,
-condition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,Please type in your SONA ID below:,on,,Please type in your SONA ID below:,5,on,https://app.prolific.co/submissions/complete?cc=NMEZ69QB,no,
-condition_2,,stimuli_2.csv,procedure_1.csv,off,Please type in your SONA ID below:,on,,Please type in your SONA ID below:,5,on,https://app.prolific.co/submissions/complete?cc=NMEZ69QB,no,
-,,,,,,,,,,,,,
+name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,download_at_end,mobile,
+condition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,Please type in your SONA ID below:,on,,Please type in your SONA ID below:,5,on,no,
+condition_2,,stimuli_2.csv,procedure_1.csv,off,Please type in your SONA ID below:,on,,Please type in your SONA ID below:,5,on,no,
+,,,,,,,,,,,,
