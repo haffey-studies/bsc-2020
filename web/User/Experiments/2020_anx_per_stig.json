@@ -43,7 +43,7 @@
       "start_message",
       "buffer",
       "scripts",
-      ""
+      null
     ],
     [
       "condition_1",
@@ -57,7 +57,7 @@
       "",
       "5",
       "",
-      ""
+      null
     ],
     [
       "",
@@ -71,7 +71,7 @@
       "",
       "",
       "",
-      ""
+      null
     ]
   ],
   "all_stims": {
