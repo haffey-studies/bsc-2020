@@ -129,7 +129,7 @@
       ],
       [
         "Instructions1",
-        "<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to how you felt during the first month of lockdown:</span></span>",
+        "<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to how you felt during <b><u>the first month of lockdown</u></b>:<br>\n<br>\nDuring the first month of lockdown I felt...</span></span>",
         "Instruct",
         "",
         "",
@@ -142,7 +142,7 @@
       ],
       [
         "PANAS1",
-        "Interested during the first month of lockdown",
+        "Interested",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -155,7 +155,7 @@
       ],
       [
         "PANAS2",
-        "Distressed during the first month of lockdown",
+        "Distressed",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -168,7 +168,7 @@
       ],
       [
         "PANAS3",
-        "Excited during the first month of lockdown",
+        "Excited",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -181,7 +181,7 @@
       ],
       [
         "PANAS4",
-        "Upset during the first month of lockdown",
+        "Upset",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -194,7 +194,7 @@
       ],
       [
         "PANAS5",
-        "Strong during the first month of lockdown",
+        "Strong",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -207,7 +207,7 @@
       ],
       [
         "PANAS6",
-        "Guilty during the first month of lockdown",
+        "Guilty",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -220,7 +220,7 @@
       ],
       [
         "PANAS7",
-        "Scared during the first month of lockdown",
+        "Scared",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -233,7 +233,7 @@
       ],
       [
         "PANAS8",
-        "Hostile during the first month of lockdown",
+        "Hostile",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -246,7 +246,7 @@
       ],
       [
         "PANAS9",
-        "Enthusiastic during the first month of lockdown",
+        "Enthusiastic",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -259,7 +259,7 @@
       ],
       [
         "PANAS10",
-        "Proud during the first month of lockdown",
+        "Proud",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -272,7 +272,7 @@
       ],
       [
         "PANAS11",
-        "Irritable during the first month of lockdown",
+        "Irritable",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -285,7 +285,7 @@
       ],
       [
         "PANAS12",
-        "Alert during the first month of lockdown",
+        "Alert",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -298,7 +298,7 @@
       ],
       [
         "PANAS13",
-        "Ashamed during the first month of lockdown",
+        "Ashamed",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -311,7 +311,7 @@
       ],
       [
         "PANAS14",
-        "Inspired during the first month of lockdown",
+        "Inspired",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -324,7 +324,7 @@
       ],
       [
         "PANAS15",
-        "Nervous during the first month of lockdown",
+        "Nervous",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -337,7 +337,7 @@
       ],
       [
         "PANAS16",
-        "Determined during the first month of lockdown",
+        "Determined",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -350,7 +350,7 @@
       ],
       [
         "PANAS17",
-        "Attentive during the first month of lockdown",
+        "Attentive",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -363,7 +363,7 @@
       ],
       [
         "PANAS18",
-        "Jittery during the first month of lockdown",
+        "Jittery",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -376,7 +376,7 @@
       ],
       [
         "PANAS19",
-        "Active during the first month of lockdown",
+        "Active",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
@@ -389,7 +389,7 @@
       ],
       [
         "PANAS20",
-        "Afraid during the first month of lockdown",
+        "Afraid",
         "likert",
         "Very slightly or not at all|A little|Moderately|Quite abit| Extremely",
         "1|2|3|4|5",
