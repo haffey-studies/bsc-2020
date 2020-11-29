@@ -128,6 +128,19 @@
         null
       ],
       [
+        "gross_instructions",
+        "We would like to ask you some questions about your emotional life, in particular, how\nyou control (that is, regulate and manage) your emotions. The questions below involve\ntwo distinct aspects of your emotional life. One is your <b><u>emotional experience</u></b>, or what\nyou feel like inside. The other is your <b><u>emotional expression</u></b>, or how you show your\nemotions in the way you talk, gesture, or behave. Although some of the following\nquestions may seem similar to one another, they differ in important ways.",
+        "instruct",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
         "Reappraisal1",
         "When I want to feel more positive emotion (such as joy or amusement), I change what I’m thinking about.",
         "likert",
