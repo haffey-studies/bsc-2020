@@ -1413,7 +1413,9 @@ function shuffle_start_exp(){
 }
 
 function start_restart(){
-  if(window.localStorage.getItem("exp_json") !== null &
+  if(isSafari){
+    bootbox.alert("This experiment will not run in safari. Please close and use another browser");
+  } else if(window.localStorage.getItem("exp_json") !== null &
      Study.get_vars.platform !== "preview"){
 
     bootbox.dialog({
