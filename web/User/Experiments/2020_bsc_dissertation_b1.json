@@ -268,7 +268,7 @@
       ],
       [
         "ASS3_soc",
-        "Most people believe that autism is not a real medicall illness.",
+        "Most people believe that autism is not a real medical illness.",
         "likert",
         "Strongly agree|Agree|Neither agree nor disagree|Disagree|Strongly disagree",
         "4|3|2|1|0",
@@ -369,6 +369,7 @@
         "score SOC_TOTAL",
         "Optional",
         "btn_width",
+        "side_text",
         null
       ],
       [
@@ -384,6 +385,7 @@
         null,
         "",
         "",
+        null,
         null
       ],
       [
@@ -399,6 +401,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -414,6 +417,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -429,6 +433,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -444,6 +449,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -459,6 +465,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -474,6 +481,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -489,6 +497,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -504,6 +513,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -519,6 +529,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -534,6 +545,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -549,6 +561,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -564,6 +577,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -579,6 +593,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -594,6 +609,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -609,6 +625,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -624,6 +641,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -639,6 +657,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -654,6 +673,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -669,6 +689,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -684,6 +705,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -699,6 +721,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -714,6 +737,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -729,6 +753,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -744,6 +769,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -759,6 +785,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -774,6 +801,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -789,6 +817,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -804,6 +833,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -819,6 +849,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -834,6 +865,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -849,6 +881,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -864,6 +897,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -879,6 +913,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -894,6 +929,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -909,6 +945,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -924,6 +961,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -939,6 +977,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -954,6 +993,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -969,6 +1009,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -984,6 +1025,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -999,6 +1041,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -1014,6 +1057,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -1029,6 +1073,7 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
@@ -1044,9 +1089,27 @@
         "1",
         "No",
         "250px",
+        null,
         null
       ],
       [
+        "Scaared_stigma",
+        "How much have you been shamed or stigmatised for the above behaviour?",
+        "likert",
+        "1|2|3|4|5|6|7|8|9|10|11",
+        "1|2|3|4|5|6|7|8|9|10|11",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "No",
+        null,
+        "Not at all|Extremely",
+        null
+      ],
+      [
+        null,
         null,
         null,
         null,
@@ -1076,20 +1139,8 @@
         null
       ],
       [
-        "Instructions1",
-        "<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to you:</span></span>",
-        "Instruct",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        null
-      ],
-      [
         "instruct2",
-        "Each question is this section consists of a group of four statements. Please read each group of statements carefully and then select the one which best describes your feelings, over the past six months. Identify the statement by ringing the letter next to it, i.e. if you think that statement (a) is correct, ring statement (a) ; it may be that more than one statement applies, in which case, please ring any that are applicable.",
+        "Each question in this section consists of a group of four statements. Please read each group of statements carefully and then select the one which best describes your feelings, over the past six months.",
         "instruct",
         "",
         "",
@@ -1127,7 +1178,7 @@
         "HAI3",
         "<h2>3</h2>",
         "radio",
-        "As a rule I am not aware of bodily sensations or changes. | Sometimes I am aware of bodily sensations or changes. | I am often aware of bodily sensations or changes. I am constantly aware of bodily sensations or changes.",
+        "As a rule I am not aware of bodily sensations or changes. | Sometimes I am aware of bodily sensations or changes. | I am often aware of bodily sensations or changes.|I am constantly aware of bodily sensations or changes.",
         "1|2|3|4",
         "1",
         "No",
@@ -1247,7 +1298,7 @@
         "HAI13",
         "<h2>13</h2>",
         "radio",
-        "If I notice an unexplained bodily sensation I donÕt find it difficult to think about other things |  If I notice an unexplained bodily sensation I sometimes find it difficult to think about other things. |  If I notice an unexplained bodily sensation I often find it difficult to think about other things. |  If I notice an unexplained bodily sensation I always find it difficult to think about other things.",
+        "If I notice an unexplained bodily sensation I don't find it difficult to think about other things |  If I notice an unexplained bodily sensation I sometimes find it difficult to think about other things. |  If I notice an unexplained bodily sensation I often find it difficult to think about other things. |  If I notice an unexplained bodily sensation I always find it difficult to think about other things.",
         "1|2|3|4",
         "1",
         "No",
@@ -1283,7 +1334,7 @@
         "HAI15",
         "<h2>15</h2>",
         "radio",
-        "IfI had a serious illness I would still be able to enjoy things in my life quite a lot. |  IfI had a serious illness I would still be able to enjoy things in my life a little. |  IfI had a serious illness I would be almost completely unable to enjoy things in my life. |  IfI had a serious illness I would be completely unable to enjoy life at all.",
+        "If I had a serious illness I would still be able to enjoy things in my life quite a lot. |  If I had a serious illness I would still be able to enjoy things in my life a little. |If I had a serious illness I would be almost completely unable to enjoy things in my life. |If I had a serious illness I would be completely unable to enjoy life at all.",
         "1|2|3|4",
         "r1",
         "No",

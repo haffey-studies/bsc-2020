@@ -701,6 +701,18 @@
         ""
       ],
       [
+        "env_bel_instr",
+        "<span class='text-primary' style='font-size:30'>How much do you do the following behaviours?</span>",
+        "instruct",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
         "env_beh1",
         "I take measures to reduce my carbon footprint. ",
         "likert",
