@@ -1,4 +1,4 @@
-item_name,Text,Type,Answers,Values,Optional,score: env_beh,btn_width,side_text,side_width,
+item_name,Text,Type,Answers,Values,Optional,score: env_bel,btn_width,side_text,side_width,
 env_bel_instr,<span class='text-primary' style='font-size:30'>How much do you agree with the following statements?</span>,instruct,,,,,,,,
 env_bel1,Scientific evidence points to a warming trend in global climate.,likert,1|2|3|4|5|6|7|8|9,1|2|3|4|5|6|7|8|9,No,1,50px,Completely Disagree|Completely Agree,200px,
 env_bel2,"Human activity is responsible for the continuing rise in average global temperature. ",likert,1|2|3|4|5|6|7|8|9,1|2|3|4|5|6|7|8|9,No,1,50px,Completely Disagree|Completely Agree,200px,
