@@ -279,17 +279,6 @@
         null
       ],
       [
-        "birth_country",
-        "If you were not born in the UK, please state which country you were born in (optional)",
-        "Text",
-        "",
-        "Yes",
-        "",
-        "",
-        "",
-        null
-      ],
-      [
         "mother_education",
         "<b>Mother's</b> education (which level she is currently in, or is the highest she's completed)",
         "Dropdown",
