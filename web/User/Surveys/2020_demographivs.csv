@@ -13,7 +13,6 @@ father_uk_time,"Can you say which year your father moved to the UK in? (please w
 optional_instruct,All the following questions are optional. Please feel free to not answer any of them if you feel uncomfortable doing so.,instruct,,,,,
 Education,"Education (which level are you currently in, or is the highest you've completed)",Dropdown,"Some high school| High school graduate| Some college, no degree| Associate's degree| Bachelor's degree|Graduate degree (Master's, Doctorate, etc.)|Other",Yes,,,,
 uk_arrival,"If you were not born in the UK, in which year did you move to the UK? (optional)",Text,,Yes,,,,
-birth_country,"If you were not born in the UK, please state which country you were born in (optional)",Text,,Yes,,,,
 mother_education,"<b>Mother's</b> education (which level she is currently in, or is the highest she's completed)",Dropdown,"Some high school| High school graduate| Some college, no degree| Associate's degree| Bachelor's degree|Graduate degree (Master's, Doctorate, etc.)|Other",Yes,,,,
 father_education,"<b>Father's</b> education (which level he is currently in, or is the highest he's completed)",Dropdown,"Some high school| High school graduate| Some college, no degree| Associate's degree| Bachelor's degree|Graduate degree (Master's, Doctorate, etc.)|Other",Yes,,,,
 mother_age,What is your mother's age?,text,,Yes,,,,
