@@ -43,7 +43,8 @@
       "start_message",
       "buffer",
       "scripts",
-      ""
+      "mobile",
+      null
     ],
     [
       "condition_1",
@@ -57,7 +58,8 @@
       "",
       "5",
       "",
-      ""
+      "no",
+      null
     ],
     [
       "",
@@ -71,7 +73,8 @@
       "",
       "",
       "",
-      ""
+      "",
+      null
     ]
   ],
   "all_stims": {
@@ -195,7 +198,7 @@
   "stims_csv": {
     "stimuli_1.csv": "cue,answer,\r\nA,Apple,\r\nB,Banana,\r\n,,"
   },
-  "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\n,,,,,,,,,,,",
+  "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,mobile,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,no,\r\n,,,,,,,,,,,,",
   "mods": {},
   "conditions": [
     {

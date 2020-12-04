@@ -73,7 +73,8 @@
       "start_message",
       "buffer",
       "scripts",
-      ""
+      "mobile",
+      null
     ],
     [
       "condition_1",
@@ -87,7 +88,8 @@
       "",
       "5",
       "",
-      ""
+      "no",
+      null
     ],
     [
       "",
@@ -101,7 +103,8 @@
       "",
       "",
       "",
-      ""
+      "",
+      null
     ]
   ],
   "all_stims": {
@@ -325,7 +328,7 @@
   "stims_csv": {
     "stimuli_1.csv": "cue,image_type,group size,friend_friends,\r\n../User/Stimuli/face_video/121_1_f2f.png,face to face,one,a friend,\r\n../User/Stimuli/face_video/121_2_f2f.png,face to face,one,a friend,\r\n../User/Stimuli/face_video/121_3_f2f.png,face to face,one,a friend,\r\n../User/Stimuli/face_video/121_4_f2f.png,face to face,one,a friend,\r\n../User/Stimuli/face_video/lg_1_f2f.png,face to face,large,friends,\r\n../User/Stimuli/face_video/lg_2_f2f.png,face to face,large,friends,\r\n../User/Stimuli/face_video/lg_3_f2f.png,face to face,large,friends,\r\n../User/Stimuli/face_video/lg_4_f2f.png,face to face,large,friends,\r\n../User/Stimuli/face_video/sg_1_f2f.png,face to face,small,friends,\r\n../User/Stimuli/face_video/sg_2_f2f.png,face to face,small,friends,\r\n../User/Stimuli/face_video/sg_3_f2f.png,face to face,small,friends,\r\n../User/Stimuli/face_video/sg_4_f2f.png,face to face,small,friends,\r\n../User/Stimuli/face_video/121_1_video.png,video,one,a friend,\r\n../User/Stimuli/face_video/121_2_video.png,video,one,a friend,\r\n../User/Stimuli/face_video/121_3_video.png,video,one,a friend,\r\n../User/Stimuli/face_video/121_4_video.png,video,one,a friend,\r\n../User/Stimuli/face_video/lg_1_video.png,video,large,friends,\r\n../User/Stimuli/face_video/lg_2_video.png,video,large,friends,\r\n../User/Stimuli/face_video/lg_3_video.png,video,large,friends,\r\n../User/Stimuli/face_video/lg_4_video.png,video,large,friends,\r\n../User/Stimuli/face_video/sg_1_video.png,video,small,friends,\r\n../User/Stimuli/face_video/sg_2_video.png,video,small,friends,\r\n../User/Stimuli/face_video/sg_3_video.png,video,small,friends,\r\n../User/Stimuli/face_video/sg_4_video.png,video,small,friends,\r\n,,,,"
   },
-  "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\n,,,,,,,,,,,",
+  "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,mobile,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,no,\r\n,,,,,,,,,,,,",
   "conditions": [
     {
       "name": "condition_1",
