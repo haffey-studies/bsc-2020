@@ -98,19 +98,6 @@ $("#participant_code").on("input change",function(){
 });
 
 $("#start_btn").on("click",function(){
-  /*
-
-
-    Change the below to avoid need for the participant to confirm their ID
-
-    -also, might need to get the participant to confirm their ID even when "resuming the task!"
-
-
-
-
-  */
-
-
   var participant_code = $("#participant_code").val();
   if(participant_code !== ""){
     post_welcome(participant_code,false);

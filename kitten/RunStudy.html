@@ -1434,13 +1434,18 @@ function start_restart(){
             var participant_code = window.localStorage.getItem("username");
             var completion_code = window.localStorage.getItem("completion_code");
             var prehashed_code = window.localStorage.getItem("prehashed_code");
-            $("#participant_code").val(participant_code);
             $("#completion_code").val(completion_code);
             $("#prehashed_code").val(prehashed_code);
-            //post_welcome(participant_code,false);
-            //process_welcome();
-						post_welcome_data("blank");
-						//Study.activate_pipe();
+            if(participant_code == ""){
+              bootbox.prompt("What ID did you use?", function(this_participant_code){
+                participant_code = this_participant_code;
+                $("#participant_code").val(participant_code);
+                post_welcome_data("blank");
+              });
+            } else {
+              $("#participant_code").val(participant_code);
+              post_welcome_data("blank");
+            }
   				}
         },
   			start: {
