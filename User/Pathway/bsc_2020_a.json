@@ -11,6 +11,7 @@
     "2020_tas",
     "2020_phq9",
     "2020_env_bel",
+    "2020_anx_per_stig",
     "2020-jgerq",
     "2020_lockdown",
     "2020_aut_perceived_stigma",
@@ -21,7 +22,8 @@
     "2020_aut_soc_stigma",
     "2020_sc_questionnaire",
     "2020_hai",
-    "2020_demographics"
+    "2020_demographics",
+    "2020_debrief_sheet"
   ],
   "items":{
     "2020_bsc_info_sheet":{
@@ -88,6 +90,9 @@
       "name":"condition_1"
     },
     "2020_demographics":{
+      "name":"condition_1"
+    },
+    "2020_debrief_sheet":{
       "name":"condition_1"
     }
   }
