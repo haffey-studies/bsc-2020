@@ -98,15 +98,22 @@ $("#participant_code").on("input change",function(){
 });
 
 $("#start_btn").on("click",function(){
-	var participant_code = $("#participant_code").val();
-	bootbox.prompt("Please confirm your ID in the text box below", function(confirmed_id){
-    if(confirmed_id){
-      if(confirmed_id == participant_code){
-  			post_welcome(participant_code,false);
-  		} else {
-  			bootbox.alert("The IDs you've typed in do not match. Please double check and try again");
-  		}
-    }
-	});
+  /*
+
+
+    Change the below to avoid need for the participant to confirm their ID
+
+    -also, might need to get the participant to confirm their ID even when "resuming the task!"
+
+
+
+
+  */
+
+
+  var participant_code = $("#participant_code").val();
+  if(participant_code !== ""){
+    post_welcome(participant_code,false);
+  }
 });
 </script>
