@@ -30,6 +30,9 @@
     "2020_debrief_sheet"
   ],
   "items":{
+    "2020_anx_per_stig":{
+      "name":"condition_1"
+    },
     "2020_bsc_info_sheet":{
       "name":"condition_1"
     },
