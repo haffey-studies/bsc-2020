@@ -44,7 +44,7 @@
       "buffer",
       "scripts",
       "mobile",
-      null
+      ""
     ],
     [
       "condition_1",
@@ -59,22 +59,22 @@
       "5",
       "",
       "no",
-      null
+      ""
     ],
     [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ]
   ],
   "all_stims": {
@@ -674,6 +674,7 @@
       "start_message": "",
       "buffer": "5",
       "scripts": "",
+      "mobile": "no",
       "": ""
     }
   ],
