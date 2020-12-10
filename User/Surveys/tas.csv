@@ -1,25 +1,39 @@
-item_name,text,type,answers,values,score: tas_26,optional,btn_width,
-instructions1,"<span style='color:#006699'><span style='font-size:20px'>Using the scale provided as a guide, indicate how much you agree or disagree with each of the following statements:</span></span>",instruct,,,,,,
-tas1,When I cry I always know why,likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
-tas2,Daydreaming is a waste of time,likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,r1,no,100px,
-tas3,I wish I were not so shy,likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
-tas4,I am often confused about what emotion I am feeling,likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
-tas5,"I often daydream about the future ",likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
-tas6,I seem to make friends as easily as others do,likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
-tas7,Knowing the answers to problems is more important than knowing the reasons for the answers,likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
-tas8,It is difficult for me to know the right words for my feelings,likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,r1,no,100px,
-tas9,I like to let people know where I stand on things,likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
-tas10,I have physical sensations that even doctors don't understand,likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,r1,no,100px,
-tas11,"It is not enough for me that something get the job done; I need to know why and how it works ",likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
-tas12,"I am able to describe my feelings easily ",likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
-tas13,"I prefer to analyse problems rather than just describe them ",likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
-tas14,"When I am upset, I don't know if I am sad, frightened, or angry",likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
-tas15,I use my imagination a great deal,likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
-tas16,I spend much time daydreaming whenever I have nothing else to do,likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
-tas17,I am often puzzled by sensations in my body,likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
-tas18,"I daydream rarely ",likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,r1,no,100px,
-tas19,I prefer just to let things happen than to understand why they turned out this way,likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
-tas20,I have feelings that I can't quite identify,likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
-tas21,Being in touch with emotions is essential,likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,1,no,100px,
-tas22,"I find it hard to describe how I feel about people ",likert,Strongly disagree|Moderately disagree|Neither disagree nor agree|Moderately agree|Strongly agree,0|1|2|3|4,r1,no,100px,
-,,,,,,,,
+item_name,text,type,answers,values,score: paq_total,score: paq_ndif,score: paq_pdif,score: paq_nddf,score: paq_pddf,score: paq_geot,optional,side_text,
+instructions1,"<span style='color:#006699'><span style='font-size:20px'>This questionnaire asks about how you perceive and experience your emotions. Please score the following statements according to how much you agree or disagree that the statement is true of you. Circle one answer for each statement.<br>
+<br>
+
+Some questions mention <b><u>bad</u></b> or <b><u>unpleasant</u></b> emotions, this means emotions like sadness, anger, or fear. Some questions mention <b><u>good</u></b> or <b><u>pleasant</u></b> emotions, this means emotions like happiness, amusement, or excitement.</span></span>",instruct,,,,,,,,,,,
+paq1,"When I’m feeling <i>bad</i> (feeling an unpleasant emotion), I can’t find the right words to describe those feelings.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,1,,,no,Strongly Disagree|Strongly Agree,
+paq2,"When I’m feeling <i>bad</i>, I can’t tell whether
+I’m sad, angry, or scared.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,1,,,,,no,Strongly Disagree|Strongly Agree,
+paq3,I tend to ignore how I feel.,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,,1,no,Strongly Disagree|Strongly Agree,
+paq4,"When I’m feeling <i>good</i> (feeling a pleasant
+emotion), I can’t find the right words to
+describe those feelings.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,1,,no,Strongly Disagree|Strongly Agree,
+paq5,"When I’m feeling <i>good</i>, I can’t tell whether I’m happy, excited, or amused.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,1,,,,no,Strongly Disagree|Strongly Agree,
+paq6,"I prefer to just let my feelings happen in the background, rather than focus on them.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,,1,no,Strongly Disagree|Strongly Agree,
+paq7,"When I’m feeling <i>bad</i>, I can’t talk about those feelings in much depth or detail.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,1,,,no,Strongly Disagree|Strongly Agree,
+paq8,"When I’m feeling <i>bad</i>, I can’t make sense of those feelings.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,1,,,,,no,Strongly Disagree|Strongly Agree,
+paq9,I don’t pay attention to my emotions.,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,,1,no,Strongly Disagree|Strongly Agree,
+paq10,"When I’m feeling <i>good</i>, I can’t talk about those feelings in much depth or detail.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,1,,no,Strongly Disagree|Strongly Agree,
+paq11,"When I’m feeling <i>good</i>, I can’t make sense of those feelings.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,1,,,,no,Strongly Disagree|Strongly Agree,
+paq12,"Usually, I try to avoid thinking about what
+I’m feeling.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,,1,no,Strongly Disagree|Strongly Agree,
+paq13,"When something <i>bad</i> happens, it’s hard for me to put into words how I’m feeling.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,1,,,no,Strongly Disagree|Strongly Agree,
+paq14,"When I’m feeling <i>bad</i>, I get confused about what emotion it is.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,1,,,,,no,Strongly Disagree|Strongly Agree,
+paq15,"I prefer to focus on things I can actually see
+or touch, rather than my emotions.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,,1,no,Strongly Disagree|Strongly Agree,
+paq16,"When something <i>good</i> happens, it’s hard for me to put into words how I’m feeling.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,1,,no,Strongly Disagree|Strongly Agree,
+paq17,"When I’m feeling <i>good</i>, I get confused about what emotion it is.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,1,,,,no,Strongly Disagree|Strongly Agree,
+paq18,"I don’t try to be ‘in touch’ with my
+emotions.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,,1,no,Strongly Disagree|Strongly Agree,
+paq19,"When I’m feeling <i>bad</i>, if I try to describe how I’m feeling I don’t know what to say.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,1,,,no,Strongly Disagree|Strongly Agree,
+paq20,"When I’m feeling <i>bad</i>, I’m puzzled by those
+feelings.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,1,,,,,no,Strongly Disagree|Strongly Agree,
+paq21,"It’s not important for me to know what I’m
+feeling.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,,1,no,Strongly Disagree|Strongly Agree,
+paq22,"When I’m feeling <i>good</i>, if I try to describe how I’m feeling I don’t know what to say.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,1,,no,Strongly Disagree|Strongly Agree,
+paq23,"When I’m feeling <i>good</i>, I’m puzzled by those feelings.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,1,,,,no,Strongly Disagree|Strongly Agree,
+paq24,"It’s strange for me to think about my
+emotions.",likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,1,,,,,1,no,Strongly Disagree|Strongly Agree,
+,,,,,,,,,,,,,
