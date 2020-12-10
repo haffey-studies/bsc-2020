@@ -24,14 +24,14 @@
     "2020_iuc",
     "2020_aq_stigma",
     "2020_dep_soc_stig",
-    "2020_tas",
+    "2020_pa",
 
     "2020_demographics",
     "2020_debrief_sheet"
   ],
   "items":{
     "2020_anx_per_stig":{
-      "name":"condition_1"      
+      "name":"condition_1"
     },
     "2020_bsc_info_sheet":{
       "name":"condition_1"
