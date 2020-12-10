@@ -1,4 +1,4 @@
-item_name,Text,Type,Answers,Values,Score: PA/SO,Score: GA,Score: SEP,Score: SOC,score SOC_TOTAL,Optional,btn_width,side_text,
+item_name,Text,Type,Answers,Values,Score: PA_SO,Score: GA,Score: SEP,Score: SOC,score SOC_TOTAL,Optional,btn_width,side_text,
 Instruction,<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to you:</span></span>,instruct,,,,,,,,,,,
 SCAARED1,"When I feel nervous, it is hard for me to breathe.",likert,Not True or Hardly Ever True| Somewhat True or Sometimes True | Very True or Often True,0|1|2,1,,,,1,No,250px,,
 SCAARED2,"I get headaches when I am at school, at work or in public places.",likert,Not True or Hardly Ever True| Somewhat True or Sometimes True | Very True or Often True,0|1|2,1,,,,1,No,250px,,
